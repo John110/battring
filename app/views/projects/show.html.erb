@@ -1,0 +1,28 @@
+<%- model_class = Project -%>
+<div class="page-header">
+  <h1><%= @project.title %></h1>
+</div>
+
+<% @project.tasks.each.with_index do |task, i| %>
+	<%= i+1 %> &nbsp; <%= "名無しのゲーマー" %>
+	<%= link_to "[削除]",project_task_path(task.project_id, task.id), method: :delete, data:{confirm: "削除してよろしいですか？"} %><br>
+	<%= simple_format(task.title) %><br><br>
+<% end %>	
+
+<div class="form-horizontal" role="form"> 
+<%= form_for [@project, @project.tasks.build] do |f| %>
+<div>
+<%= f.text_area :title, :size => "40x5" %>
+</div>
+<%= f.submit %>
+<% end %>
+</div>
+<%= link_to t('.back', :default => t("helpers.links.back")),
+              projects_path, :class => 'btn btn-default'  %>
+<%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_project_path(@project), :class => 'btn btn-default' %>
+<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              project_path(@project),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>

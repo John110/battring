@@ -1,0 +1,15 @@
+<%= form_for @favorite do |f| %>
+
+<p>
+	<%= f.label :title %><br>
+	<%= f.text_field :title %>
+	<% if @favorite.errors.any? %>
+	<%= @favorite.errors.messages[:title][0] %>
+	<% end %>
+</p>
+
+<p>
+	<%= f.submit %>
+</p>
+
+<% end %>

@@ -1,0 +1,16 @@
+<h1><%= @user.name %></h1>
+<ul>
+<% @user.favorites.each.with_index do |favorite, i| %>
+<!--   <%= link_to "[削除]",user_favorite_path(favorite.user_id, favorite.id), method: :delete, data:{confirm: "削除してよろしいですか？"} %><br> -->
+ <%= link_to favorite.title, project_path(favorite.project) %><br><br>
+<% end %> 
+
+<%= form_for [@user, @user.favorites.build] do |f| %>
+<%= f.text_field :title %>
+<% if @error_message.present? %>
+<%= @error_message %>
+<% end %>
+<%= f.submit %>
+<% end %>
+</ul>
+
