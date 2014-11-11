@@ -27,6 +27,6 @@ class FavoritesController < ApplicationController
 	end
 
   def duplicate_title
-    Favorite.find_by(user_id: @user.id, title: favorite_params[:title]) != nil
+    Favorite.exists?(user_id: @user.id, title: favorite_params[:title])
   end
 end
