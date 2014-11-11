@@ -4,7 +4,7 @@ class FavoritesController < ApplicationController
 		@project = Project.find_by(title: favorite_params[:title])
 		if @project.nil?
 			redirect_to user_path(@user.name)
-    elsif duplicate_title
+    elsif is_redundant_title?
       redirect_to user_path(@user.name)
 		else
 			@favorite = @user.favorites.create(favorite_params.merge(project_id: @project.id))
@@ -26,7 +26,7 @@ class FavoritesController < ApplicationController
 		params[:favorite].permit(:title)
 	end
 
-  def duplicate_title
+  def is_redundant_title?
     Favorite.exists?(user_id: @user.id, title: favorite_params[:title])
   end
 end
