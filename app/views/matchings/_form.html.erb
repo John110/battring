@@ -1,0 +1,45 @@
+<%= form_for @create_matching do |f| %>
+  <% if @create_matching.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@create_matching.errors.count, "error") %> prohibited this create_matching from being saved:</h2>
+
+      <ul>
+      <% @create_matching.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :owner %><br>
+    <%= f.text_field :owner %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :reguration %><br>
+    <%= f.text_field :reguration %>
+  </div>
+  <div class="field">
+    <%= f.label :limit %><br>
+    <%= f.datetime_select :limit %>
+  </div>
+  <div class="field">
+    <%= f.label :start %><br>
+    <%= f.datetime_select :start %>
+  </div>
+  <div class="field">
+    <%= f.label :memo %><br>
+    <%= f.text_area :memo %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

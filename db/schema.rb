@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141026070304) do
+ActiveRecord::Schema.define(version: 20141112054837) do
 
   create_table "favorites", force: true do |t|
     t.string   "title"
@@ -23,6 +23,34 @@ ActiveRecord::Schema.define(version: 20141026070304) do
 
   add_index "favorites", ["project_id"], name: "index_favorites_on_project_id", using: :btree
   add_index "favorites", ["user_id"], name: "index_favorites_on_user_id", using: :btree
+
+  create_table "matchings", force: true do |t|
+    t.string   "name"
+    t.string   "owner"
+    t.string   "title"
+    t.string   "reguration"
+    t.datetime "limit"
+    t.datetime "start"
+    t.text     "memo"
+    t.integer  "user_id"
+    t.integer  "project_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "matchings", ["project_id"], name: "index_matchings_on_project_id", using: :btree
+  add_index "matchings", ["user_id"], name: "index_matchings_on_user_id", using: :btree
+
+  create_table "participants", force: true do |t|
+    t.string   "name"
+    t.integer  "matching_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "participants", ["matching_id"], name: "index_participants_on_matching_id", using: :btree
+  add_index "participants", ["user_id"], name: "index_participants_on_user_id", using: :btree
 
   create_table "projects", force: true do |t|
     t.string   "title"
@@ -43,11 +71,8 @@ ActiveRecord::Schema.define(version: 20141026070304) do
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
-    t.integer  "project_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  add_index "users", ["project_id"], name: "index_users_on_project_id", using: :btree
 
 end

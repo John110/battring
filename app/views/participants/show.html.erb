@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @participant.name %>
+</p>
+
+<p>
+  <strong>Create matching:</strong>
+  <%= @create_matching.name %>
+</p>
+
+<%= link_to 'Show', matching_path(@create_matching) %>|
+<%= link_to 'Back', project_matching_path(@create_matching.project_id, @create_matching.id) %>

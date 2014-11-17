@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @create_matching.name %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @create_matching.owner %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @create_matching.title %>
+</p>
+
+<p>
+  <strong>Reguration:</strong>
+  <%= @create_matching.reguration %>
+</p>
+
+<p>
+  <strong>Limit:</strong>
+  <%= @create_matching.limit %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @create_matching.start %>
+</p>
+
+<p>
+  <strong>Memo:</strong>
+  <%= @create_matching.memo %>
+</p>
+
+<p>
+  <strong>Participant:</strong>
+  <% @create_matching.participants.each do |participant| %>
+    <br>
+    <%= participant.name %>
+  <% end %>
+</p>
+
+<% if @create_matching.limit > Time.now %>
+  <%= link_to 'Join', new_matching_participant_path(@create_matching) %> |
+<% end %>
+<%= link_to 'Edit', edit_project_matching_path(@create_matching.project_id, @create_matching.id) %> |
+<%= link_to 'Back', project_matchings_path(@create_matching.project_id) %>

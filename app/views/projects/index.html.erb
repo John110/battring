@@ -12,6 +12,7 @@
     <tr>
       <td><%= link_to project.title, project_path(project.id) %></td>
       <td>
+        <%= link_to "大会", project_matchings_path(project.id) %>
         <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
         project_path(project.id),
         :method => :delete,
