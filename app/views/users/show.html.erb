@@ -4,11 +4,9 @@
 
 <h3>お気に入り一覧</h3>
 <ul>
-<li>
-<% @user.favorites.each.with_index do |favorite, i| %>
- <%= link_to favorite.title, project_path(favorite.project) %><br><br>
+<% @user.favorites.each do |favorite| %>
+ <h5><li><%= link_to favorite.title, user_project_path(@user.id, favorite.project) %><br></li></h5>
 <% end %> 
-</li>
 
 <%= form_for [@user, @user.favorites.build] do |f| %>
 <%= f.text_field :title %>

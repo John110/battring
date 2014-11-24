@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   end
   resources :users do
     resources :favorites, only: [:create, :destroy]
+    resources :projects, only:[:show]
   end
   resources :matchings, only: [:show] do
     resources :participants

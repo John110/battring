@@ -1,13 +1,11 @@
 class FavoritesController < ApplicationController
 	def create
 		@user = User.find(params[:user_id])
-		@project = Project.find_by(title: favorite_params[:title])
-		if @project.nil?
+		@project = Project.find_by(title: params[:title])
+		if @project.nil? || is_redundant_title?
 			redirect_to user_path(@user.name)
-    elsif is_redundant_title?
-      redirect_to user_path(@user.name)
 		else
-			@favorite = @user.favorites.create(favorite_params.merge(project_id: @project.id))
+			@favorite = @user.favorites.create(title: params[:title], project_id: params[:project_id])
 			redirect_to user_path(@user.name)
 		end
 		
@@ -22,11 +20,8 @@ class FavoritesController < ApplicationController
 
 	private
 
-	def favorite_params
-		params[:favorite].permit(:title)
-	end
 
   def is_redundant_title?
-    Favorite.exists?(user_id: @user.id, title: favorite_params[:title])
+    Favorite.exists?(user_id: @user.id, title: params[:title])
   end
 end
