@@ -1,7 +1,9 @@
 <h1><%= @user.name %></h1>
+
+<%= render "projects_list" %>
+
 <ul>
 <% @user.favorites.each.with_index do |favorite, i| %>
-<!--   <%= link_to "[削除]",user_favorite_path(favorite.user_id, favorite.id), method: :delete, data:{confirm: "削除してよろしいですか？"} %><br> -->
  <%= link_to favorite.title, project_path(favorite.project) %><br><br>
 <% end %> 
 

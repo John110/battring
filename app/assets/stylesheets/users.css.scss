@@ -1,3 +1,10 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.vmenuitem{background-color:#ffffcc; cursor:pointer; width:100px;}
+.vmenu_on, .vmenu_off{margin:2px 0px;}
+.vmenu_on .vmenuitem{border:1px solid #cccc77; border-left:5px solid #cccc77;}
+.vmenu_off .vmenuitem{border:1px solid #77cccc; border-left:5px solid #77cccc;}
+.vmenu_on ul{display:auto; margin:2px auto;}
+.vmenu_off ul{display:none;}
