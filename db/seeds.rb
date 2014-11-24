@@ -6,15 +6,12 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-# @user = User.new
-# @user.name = "Sano"
-# @user.email = "pippi@gmail.com"
-# @user.save
+@user = User.new
+@user.name = "Sano"
+@user.email = "pippi@gmail.com"
+@user.save
 
-# @user = User.new
-# @user.name = "Uramon"
-# @user.email = "poppo@gmail.com"
-# @user.save
-
-genre = Genre.create(:genre => "RPG")
-genre = Genre.create(:genre => "FPS")
+@user = User.new
+@user.name = "Uramon"
+@user.email = "poppo@gmail.com"
+@user.save
