@@ -3,12 +3,12 @@
   <h1><%= @project.title %></h1>
   <div class="button"><%= button_to "お気に入り登録",{:controller => "favorites", :action => "create", :user_id => params[:user_id], :project_id => params[:id], :title => @project.title}, :class => "btn btn-default" %></div>
   <div style="float:right;"><%= link_to "大会", project_matchings_path(@project.id), :class => "btn btn-default" %></div>
-</div>
+</div><br><br>
  
 
 <% @project.tasks.each.with_index do |task, i| %>
 	<%= i+1 %> &nbsp; <%= "名無しのゲーマー" %>
-	<%= link_to "[削除]",project_task_path(task.project_id, task.id), method: :delete, data:{confirm: "削除してよろしいですか？"} %><br>
+	<%= link_to "[削除]", project_task_path(task.project_id, task.id, user_id: params[:user_id]), method: :delete, data:{confirm: "削除してよろしいですか？"} %><br>
 	<%= simple_format(task.title) %><br><br>
 <% end %>	
 
@@ -17,6 +17,7 @@
 <div>
 <%= f.text_area :title, :size => "40x5" %>
 </div>
+<%= f.hidden_field :user_id, value: params[:user_id] %>
 <%= f.submit %>
 <% end %>
 </div>
