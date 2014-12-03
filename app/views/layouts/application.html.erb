@@ -26,12 +26,15 @@
       <% end %>
     </nav>
   </header>
-  <h2><%= link_to "Home", projects_path %><br></h2>
-  <% Project.all.each do |project| %>
-    <%= link_to project.title,project_path(project.id) %><br>
+
+  <% if player_signed_in? %> 
+    <h2><%= link_to "Home", user_path(current_player.username) %><br></h2>
+    <% current_player.favorites.each do |favorite| %>
+      <%= link_to favorite.title, user_project_path(current_player.id, favorite.project) %><br>
   <% end %>
-</center>
-</nav>
+  </center>
+  </nav>
+<% end %>
 
 </body>
 </html>

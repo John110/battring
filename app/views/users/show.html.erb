@@ -1,19 +1,12 @@
-<h1><%= @user.name %></h1>
+<h1><%= @user.username %></h1>
 
-<%= render "projects_list" %><br><br>
+<% if current_player.username == params[:id] %>
+  <%= render "projects_list" %><br><br>
+<% end %>
 
 <h3>お気に入り一覧</h3>
 <ul>
 <% @user.favorites.each do |favorite| %>
  <h5><li><%= link_to favorite.title, user_project_path(@user.id, favorite.project) %><br></li></h5>
 <% end %> 
-
-<%= form_for [@user, @user.favorites.build] do |f| %>
-<%= f.text_field :title %>
-<% if @error_message.present? %>
-<%= @error_message %>
-<% end %>
-<%= f.submit %>
-<% end %>
-</ul>
 

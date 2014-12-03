@@ -16,11 +16,13 @@ ActiveRecord::Schema.define(version: 20141203041502) do
   create_table "favorites", force: true do |t|
     t.string   "title"
     t.integer  "user_id"
+    t.integer  "player_id"
     t.integer  "project_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "favorites", ["player_id"], name: "index_favorites_on_player_id", using: :btree
   add_index "favorites", ["project_id"], name: "index_favorites_on_project_id", using: :btree
   add_index "favorites", ["user_id"], name: "index_favorites_on_user_id", using: :btree
 

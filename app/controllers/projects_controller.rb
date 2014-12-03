@@ -7,7 +7,8 @@ class ProjectsController < ApplicationController
 	end
 
 	def show
-		@user = User.find_by(:name => params[:user_id])
+		# @user = User.find_by(:name => params[:user_id])
+		@user = current_player
 	end
 
 	def new
