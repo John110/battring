@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   get 'home/index'
 
-  devise_for :players
+  devise_for :players, :controllers => {
+    :sessions => 'players/sessions',
+    :registrations => 'players/registrations'
+  }
+
   resources :projects do
     resources :tasks, only: [:create, :destroy]
     resources :matchings
