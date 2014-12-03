@@ -7,7 +7,7 @@
  
 
 <% @project.tasks.each.with_index do |task, i| %>
-	<%= i+1 %> &nbsp; <%= "名無しのゲーマー" %>
+	<%= i+1 %>. &nbsp; <%= task.contributor %>
 	<%= simple_format(task.title) %><br><br>
 <% end %>	
 
@@ -17,6 +17,7 @@
 <%= f.text_area :title, :size => "40x5" %>
 </div>
 <%= f.hidden_field :user_id, value: params[:user_id] %>
+<%= f.hidden_field :contributor, value: current_player.username %>
 <%= f.submit %>
 <% end %>
 </div>
