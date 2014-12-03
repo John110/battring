@@ -1,5 +1,4 @@
 class TournamentsController < ApplicationController
-  
   def index
   end
 
@@ -9,6 +8,8 @@ class TournamentsController < ApplicationController
       return
     elsif @tournament.cards.nil?
       Tournament.new.setting(@tournament.participants,@tournament.id)
+    else
+      Tournament.new.progress(@tournament.cards,@tournament.id)
     end
   end
 
@@ -29,4 +30,5 @@ class TournamentsController < ApplicationController
   def set_project
     @project = Project.find(params[:id])
   end
+
 end

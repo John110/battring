@@ -3,7 +3,7 @@ class Tournament < ActiveRecord::Base
   def create(id, param)
     @tournament = Tournament.new
     @tournament.matching_id = id
-    @tournament.start = Time.parse("#{param["start(1i)"]}-#{param["start(2i)"]}-#{param["start(3i)"]} #{param["start(4i)"]}:#{param["start(5i)"]}").to_datetime
+    @tournament.start = param
     @tournament.save
   end
   
@@ -35,7 +35,20 @@ class Tournament < ActiveRecord::Base
       # p hoge
       @tournament.cards = "#{@tournament.cards}#{hoges} "
     end
-    seeds = []
     @tournament.save
+  end
+  
+  def progress(cards, id)
+    @tournament = Tournament.find(id)
+    hoge = cards.split(" [")
+    hoge.each do |name|
+      name.delete!("[]")
+      if name.include?(",")
+        name = name.split(",")
+        
+      end
+      @tournament.card = name
+      @tournament.save
+    end
   end
 end

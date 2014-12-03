@@ -2,7 +2,11 @@ Rails.application.routes.draw do
   resources :projects do
     resources :tasks, only: [:create, :destroy]
     resources :matchings
+    resources :matching do
+      resource :tournament
+    end
   end
+  
   resources :users do
     resources :favorites, only: [:create, :destroy]
     resources :projects, only:[:show]
@@ -13,7 +17,6 @@ Rails.application.routes.draw do
 
   patch "/matchings/:id" => "matchings#update"
   root 'projects#index'
-
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

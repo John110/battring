@@ -2,6 +2,7 @@ class Matching < ActiveRecord::Base
   has_many :participants
   belongs_to :project
   belongs_to :user
+  has_one :tournament
 
  	validates :name, :owner,
 	presence: {message: "Please input name."},

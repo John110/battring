@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141112054837) do
+ActiveRecord::Schema.define(version: 20141203021154) do
 
   create_table "favorites", force: true do |t|
     t.string   "title"
@@ -67,6 +67,19 @@ ActiveRecord::Schema.define(version: 20141112054837) do
   end
 
   add_index "tasks", ["project_id"], name: "index_tasks_on_project_id", using: :btree
+
+  create_table "tournaments", force: true do |t|
+    t.integer  "matching_id"
+    t.string   "participants"
+    t.datetime "start"
+    t.string   "result"
+    t.string   "cards"
+    t.string   "card"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "tournaments", ["matching_id"], name: "index_tournaments_on_matching_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "name"
