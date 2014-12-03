@@ -26,6 +26,7 @@
       <% end %>
     </nav>
   </header>
+<<<<<<< HEAD
   <h2><%= link_to "Home", projects_path %></h2><br>
   <% Project.all.each do |project| %>
     <ul class="nav nav-tabs nav-stacked">
@@ -34,6 +35,17 @@
   <% end %>
 </div>
 </nav>
+=======
+
+  <% if player_signed_in? %> 
+    <h2><%= link_to "Home", user_path(current_player.username) %><br></h2>
+    <% current_player.favorites.each do |favorite| %>
+      <%= link_to favorite.title, user_project_path(current_player.id, favorite.project) %><br>
+  <% end %>
+  </center>
+  </nav>
+<% end %>
+>>>>>>> ca16f44ec649f3d7d47763fd832a87b67303d0d0
 
 </body>
 </html>

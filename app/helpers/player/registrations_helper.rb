@@ -1,0 +1,2 @@
+module Player::RegistrationsHelper
+end

@@ -3,6 +3,7 @@ class CreateFavorites < ActiveRecord::Migration
     create_table :favorites do |t|
       t.string :title
       t.references :user, index: true
+      t.references :player, index: true
       t.references :project, index: true
 
       t.timestamps

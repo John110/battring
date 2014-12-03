@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  devise_for :players
+  get 'home/index'
+
+  devise_for :players, :controllers => {
+    :sessions => 'players/sessions',
+    :registrations => 'players/registrations'
+  }
+
   resources :projects do
     resources :tasks, only: [:create, :destroy]
     resources :matchings
@@ -13,7 +19,7 @@ Rails.application.routes.draw do
   end
 
   patch "/matchings/:id" => "matchings#update"
-  root 'projects#index'
+  root 'home#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
