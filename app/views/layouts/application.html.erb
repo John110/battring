@@ -13,7 +13,7 @@
 </div>
 
 <nav class="main-nav" id="main-nav">
-<center>
+<div align="center">
   <header>
     <nav>
       <% if player_signed_in? %> 
@@ -26,11 +26,13 @@
       <% end %>
     </nav>
   </header>
-  <h2><%= link_to "Home", projects_path %><br></h2>
+  <h2><%= link_to "Home", projects_path %></h2><br>
   <% Project.all.each do |project| %>
+    <ul class="nav nav-tabs nav-stacked">
     <%= link_to project.title,project_path(project.id) %><br>
+  </ul>
   <% end %>
-</center>
+</div>
 </nav>
 
 </body>
