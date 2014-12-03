@@ -6,7 +6,7 @@ class CreateTournaments < ActiveRecord::Migration
       t.datetime :start
       t.string :result
       t.string :cards
-      t.string :card
+      t.references :card, index: true
 
       t.timestamps
     end

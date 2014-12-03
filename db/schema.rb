@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141203021154) do
+ActiveRecord::Schema.define(version: 20141203051724) do
+
+  create_table "cards", force: true do |t|
+    t.string   "player_a"
+    t.string   "player_b"
+    t.string   "result"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "favorites", force: true do |t|
     t.string   "title"
@@ -74,11 +82,12 @@ ActiveRecord::Schema.define(version: 20141203021154) do
     t.datetime "start"
     t.string   "result"
     t.string   "cards"
-    t.string   "card"
+    t.integer  "card_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "tournaments", ["card_id"], name: "index_tournaments_on_card_id", using: :btree
   add_index "tournaments", ["matching_id"], name: "index_tournaments_on_matching_id", using: :btree
 
   create_table "users", force: true do |t|
