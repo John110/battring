@@ -14,10 +14,22 @@
 
 <nav class="main-nav" id="main-nav">
 <center>
-<h2><%= link_to "Home", projects_path %><br></h2>
-<% Project.all.each do |project| %>
-<%= link_to project.title,project_path(project.id) %><br>
-<% end %>
+  <header>
+    <nav>
+      <% if player_signed_in? %> 
+        Logged in as <strong><%= current_player.username %></strong>.<br>
+        <%= link_to 'プロフィール変更', edit_player_registration_path %> |
+        <%= link_to "ログアウト", destroy_player_session_path, method: :delete %>
+      <% else %>
+        <%= link_to "サインイン", new_player_registration_path %> |
+        <%= link_to "ログイン", new_player_session_path %>
+      <% end %>
+    </nav>
+  </header>
+  <h2><%= link_to "Home", projects_path %><br></h2>
+  <% Project.all.each do |project| %>
+    <%= link_to project.title,project_path(project.id) %><br>
+  <% end %>
 </center>
 </nav>
 

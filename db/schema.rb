@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141112054837) do
+ActiveRecord::Schema.define(version: 20141203041502) do
 
   create_table "favorites", force: true do |t|
     t.string   "title"
@@ -52,6 +52,26 @@ ActiveRecord::Schema.define(version: 20141112054837) do
   add_index "participants", ["matching_id"], name: "index_participants_on_matching_id", using: :btree
   add_index "participants", ["user_id"], name: "index_participants_on_user_id", using: :btree
 
+  create_table "players", force: true do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "username"
+  end
+
+  add_index "players", ["email"], name: "index_players_on_email", using: :btree
+  add_index "players", ["reset_password_token"], name: "index_players_on_reset_password_token", unique: true, using: :btree
+  add_index "players", ["username"], name: "index_players_on_username", unique: true, using: :btree
+
   create_table "projects", force: true do |t|
     t.string   "title"
     t.string   "genre"
@@ -67,6 +87,16 @@ ActiveRecord::Schema.define(version: 20141112054837) do
   end
 
   add_index "tasks", ["project_id"], name: "index_tasks_on_project_id", using: :btree
+
+  create_table "tournaments", force: true do |t|
+    t.integer  "matching_id"
+    t.datetime "start"
+    t.string   "participants"
+    t.string   "result"
+    t.string   "cards"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "name"

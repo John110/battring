@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :players
   resources :projects do
     resources :tasks, only: [:create, :destroy]
     resources :matchings
