@@ -8,7 +8,6 @@
 
 <% @project.tasks.each.with_index do |task, i| %>
 	<%= i+1 %> &nbsp; <%= "名無しのゲーマー" %>
-	<%= link_to "[削除]", project_task_path(task.project_id, task.id, user_id: params[:user_id]), method: :delete, data:{confirm: "削除してよろしいですか？"} %><br>
 	<%= simple_format(task.title) %><br><br>
 <% end %>	
 
