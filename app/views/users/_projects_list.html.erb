@@ -4,16 +4,16 @@ function getParentObj(obj){return obj.parentElement || obj.parentNode;}
 //--></script>
 
 <div class="vmenu_off">
-  <div class="vmenuitem" onclick="doToggleClassName(getParentObj(this),'vmenu_on','vmenu_off')">RPG</div>
+  <div class="vmenuitem" onclick="doToggleClassName(getParentObj(this),'vmenu_on','vmenu_off')" align="center">格闘</div>
   <ul class="list">
-    <% projects = Project.where("genre = ?", "RPG") %>
+    <% projects = Project.where("genre = ?", "格闘") %>
     <% projects.each do |project| %>
     <li><%= link_to project.title, user_project_path(@user.id, project.id) %></li>
     <% end %>
   </ul>
 </div>
 <div class="vmenu_off">
-  <div class="vmenuitem" onclick="doToggleClassName(getParentObj(this),'vmenu_on','vmenu_off')">FPS</div>
+  <div class="vmenuitem" onclick="doToggleClassName(getParentObj(this),'vmenu_on','vmenu_off')" align="center">FPS</div>
   <ul class="list">
     <% projects = Project.where("genre = ?", "FPS") %>
     <% projects.each do |project| %>
