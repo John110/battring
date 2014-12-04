@@ -18,15 +18,8 @@
 </div>
 <%= f.hidden_field :user_id, value: params[:user_id] %>
 <%= f.hidden_field :contributor, value: current_player.username %>
-<%= f.submit %>
+<%= f.submit '送信' %>
 <% end %>
 </div>
-<%= link_to t('.back', :default => t("helpers.links.back")),
+<%= link_to t('.back', :default => t("戻る")),
               projects_path, :class => 'btn btn-default'  %>
-<%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_project_path(@project), :class => 'btn btn-default' %>
-<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              project_path(@project),
-              :method => 'delete',
-              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-danger' %>

@@ -1,0 +1,9 @@
+ja:
+  activerecord:
+    attributes:
+      player:
+        username: 名前
+        current_password: 現在のパスワード
+        password: パスワード
+        password_confirmation: パスワード（再入力）
+        remember_me: 次回からパスワード入力を省く
