@@ -11,12 +11,11 @@ class FavoritesController < ApplicationController
 		
 	end
 
-	# def destroy
-	# 	@task = Task.find(params[:id])
-	# 	@task.destroy
-	# 	redirect_to project_path(params[:project_id])
-	# end
-
+	def destroy
+		@favorite = Favorite.find_by(player_id: current_player.id, project_id: params[:id])
+		@favorite.destroy
+		redirect_to user_path(current_player.username)
+	end
 
 	private
 
