@@ -1,5 +1,5 @@
 class MatchingsController < ApplicationController
-	  before_action :set_create_matching, only: [:show, :edit, :update, :destroy]
+  before_action :set_create_matching, only: [:show, :edit, :update, :destroy]
 
   def index
     @create_matchings = Matching.where(project_id: params[:project_id])
@@ -8,7 +8,9 @@ class MatchingsController < ApplicationController
 
   def show
     @create_matching = Matching.find(params[:id])
-    # @create_matching.date_comparison(@create_matching.limit,@create_matching.participants)
+    if @create_matching.start < Time.now
+      redirect_to project_matching_tournament_path(@create_matching.project_id, @create_matching.id)
+    end
   end
 
   def new
@@ -22,9 +24,7 @@ class MatchingsController < ApplicationController
 
   def create
     @project = Project.find(params[:project_id])
-    # Project.find_by(:title @project.title)
     @create_matching = @project.matchings.create(create_matching_params)
-    # @create_matching.date_comparison(@create_matching.limit)
 
     respond_to do |format|
       if @create_matching.save
@@ -35,6 +35,8 @@ class MatchingsController < ApplicationController
         format.json { render json: @create_matching.errors, status: :unprocessable_entity }
       end
     end
+    Tournament.new.create(@create_matching.id, @create_matching.start)
+    Card.new.create(@create_matching.id)
   end
 
   def update
@@ -58,11 +60,11 @@ class MatchingsController < ApplicationController
   end
 
   private
-    def set_create_matching
-      @create_matching = Matching.find(params[:id])
-    end
+  def set_create_matching
+    @create_matching = Matching.find(params[:id])
+  end
 
-    def create_matching_params
-      params.require(:matching).permit(:name, :owner, :title, :reguration, :limit, :start, :memo, :participant_id)
-    end
+  def create_matching_params
+    params.require(:matching).permit(:name, :owner, :title, :reguration, :limit, :start, :memo, :participant_id)
+  end
 end

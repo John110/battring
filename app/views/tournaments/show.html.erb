@@ -1,5 +1,21 @@
-<p id="notice"><%= notice %></p>
 <p>
-  <strong>参加者:</strong>
-  <%= @tournament.participants %>
+  <%= @tournament.cards %>
 </p>
+<%= form_tag project_matching_card_path, method: :PUT do %>
+<% if @tournament.result %>
+<p>
+  <%= @tournament.result %>さんがこの大会を制しました!
+</p>
+<% else %>
+<p>
+  <%= radio_button "page", "result", @card.player_a %>
+  <%= @card.player_a %>
+  VS
+  <%= @card.player_b %>
+  <%= radio_button "page", "result", @card.player_b %>
+</p>
+<%= submit_tag "報告" %>
+<% end %>
+<% end %>
+
+<%= link_to 'Back', project_matchings_path(1) %>

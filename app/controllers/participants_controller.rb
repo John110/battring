@@ -29,6 +29,7 @@ class ParticipantsController < ApplicationController
         format.json { render json: @participant.errors, status: :unprocessable_entity }
       end
     end
+    Tournament.new.update(@participant.name,params[:matching_id])
   end
 
   def update
