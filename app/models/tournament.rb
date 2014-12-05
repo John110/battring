@@ -1,9 +1,11 @@
 class Tournament < ActiveRecord::Base
   belongs_to :matching
+  has_one :card
   def create(id, param)
     @tournament = Tournament.new
     @tournament.matching_id = id
     @tournament.start = param
+    @tournament.participants = "#{"Azusa"} #{"Lipopo"} #{"Nicola"} #{"Nina"} #{"Luna"}"
     @tournament.save
   end
   
@@ -32,23 +34,63 @@ class Tournament < ActiveRecord::Base
           members.delete(hoge)
         end
       end
-      # p hoge
       @tournament.cards = "#{@tournament.cards}#{hoges} "
     end
     @tournament.save
   end
   
-  def progress(cards, id)
+  def first_progress(cards, id)
     @tournament = Tournament.find(id)
-    hoge = cards.split(" [")
-    hoge.each do |name|
+    @card = Card.find(id)
+    @card.first_battle_time = 0
+    names = cards.split(" [")
+    names.each do |name|
+      p name
       name.delete!("[]")
       if name.include?(",")
         name = name.split(",")
-        
       end
-      @tournament.card = name
+      if name.kind_of?(String)
+        if !(@card.next && @card.next.include?("#{name}"))
+          @card.next = "#{@card.next}#{name} "
+        end
+      else
+        if @card.player_a.nil?
+          @card.player_a = name[0]
+          @card.player_b = name[1].delete(" ")
+        else
+          if @card.book.nil?
+            @card.book = "#{@card.book}#{name} "
+          end
+        end
+      end
+      @card.save
       @tournament.save
+      if !@card.player_a.nil?
+        break
+      end
     end
+  end  
+  
+  def second_progress(id)
+    @card = Card.find(id)
+    @tournament = Tournament.find(id)
+    if @card.result.nil?
+      @card.result = @card.next
+      @card.next = nil
+    end
+    names = @card.result.split(" ")
+    if @card.player_a.nil?
+      p "delete"
+      @card.player_a = names[0]
+      @card.result.gsub!(/#{names[0]} /,"")
+      @card.player_b = names[1]
+      @card.result.gsub!(/#{names[1]} /,"")
+      @card.save
+    elsif @card.result.nil?
+      @tournament.result = names[0]
+      @tournament.save
+    end 
+    @card.save
   end
 end

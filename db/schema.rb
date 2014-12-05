@@ -14,12 +14,18 @@
 ActiveRecord::Schema.define(version: 20141203051724) do
 
   create_table "cards", force: true do |t|
+    t.integer  "matching_id"
     t.string   "player_a"
     t.string   "player_b"
     t.string   "result"
+    t.string   "next"
+    t.string   "book"
+    t.integer  "first_battle_time"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "cards", ["matching_id"], name: "index_cards_on_matching_id", using: :btree
 
   create_table "favorites", force: true do |t|
     t.string   "title"

@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :matchings
     resources :matching do
       resource :tournament
+      resource :card
     end
   end
   
@@ -14,10 +15,12 @@ Rails.application.routes.draw do
   resources :matchings, only: [:show] do
     resources :participants
   end
+  
 
   patch "/matchings/:id" => "matchings#update"
   root 'projects#index'
-
+  resource :card
+  patch "/card" => "card#update"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

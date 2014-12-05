@@ -3,13 +3,20 @@ class TournamentsController < ApplicationController
   end
 
   def show
+    @project = Project.find(params[:project_id])
     @tournament = Tournament.find(params[:matching_id])
+    @card = Card.find(params[:matching_id])
     if @tournament.participants.nil?
       return
     elsif @tournament.cards.nil?
       Tournament.new.setting(@tournament.participants,@tournament.id)
-    else
-      Tournament.new.progress(@tournament.cards,@tournament.id)
+    end
+    if @tournament.cards && @card.result.nil?
+      Tournament.new.first_progress(@tournament.cards,@tournament.id)
+    elsif @card.result && @card.player_a.nil?
+      p "maki"
+      p @card.result
+      Tournament.new.second_progress(@card.result,@tournament.id)
     end
   end
 
@@ -18,7 +25,7 @@ class TournamentsController < ApplicationController
     @tournament = @create_matching.tournament.build
   end
 
-  def update
+  def create
   end
 
   private
@@ -30,5 +37,4 @@ class TournamentsController < ApplicationController
   def set_project
     @project = Project.find(params[:id])
   end
-
 end

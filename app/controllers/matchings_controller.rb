@@ -36,6 +36,7 @@ class MatchingsController < ApplicationController
       end
     end
     Tournament.new.create(@create_matching.id, @create_matching.start)
+    Card.new.create(@create_matching.id)
   end
 
   def update
