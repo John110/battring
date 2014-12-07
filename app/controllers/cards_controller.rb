@@ -22,7 +22,7 @@ class CardsController < ApplicationController
   def update
     @card = Card.find(params[:matching_id])
     if @card.next.nil?
-      @card.next = params[:page][:result]
+      @card.next = "#{@card.next}#{params[:page][:result]} "
       @card.player_a = nil
       @card.player_b = nil
       @card.save
@@ -33,12 +33,10 @@ class CardsController < ApplicationController
       @card.save
     end
     if @card.result
-      p "pass"
       Tournament.new.second_progress(@card.id)
     elsif @card.book.nil?
       Tournament.new.second_progress(@card.id)
     end
-    @card.save
     redirect_to project_matching_tournament_path(params[:project_id], params[:matching_id])
   end
 

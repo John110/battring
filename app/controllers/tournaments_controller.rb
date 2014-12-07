@@ -11,11 +11,9 @@ class TournamentsController < ApplicationController
     elsif @tournament.cards.nil?
       Tournament.new.setting(@tournament.participants,@tournament.id)
     end
-    if @tournament.cards && @card.result.nil?
-      Tournament.new.first_progress(@tournament.cards,@tournament.id)
+    if @tournament.cards && !@tournament.is_second_battle
+      Tournament.new.first_progress(@tournament.id)
     elsif @card.result && @card.player_a.nil?
-      p "maki"
-      p @card.result
       Tournament.new.second_progress(@card.result,@tournament.id)
     end
   end

@@ -19,8 +19,6 @@ Rails.application.routes.draw do
 
   patch "/matchings/:id" => "matchings#update"
   root 'projects#index'
-  resource :card
-  patch "/card" => "card#update"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
