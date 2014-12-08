@@ -30,13 +30,13 @@ class MatchingsController < ApplicationController
       if @create_matching.save
         format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: 'Create matching was successfully created.' }
         format.json { render :show, status: :created, location: @create_matching }
+        Tournament.new.create(@create_matching.id, @create_matching.start)
+        Card.new.create(@create_matching.id)
       else
         format.html { render :new }
         format.json { render json: @create_matching.errors, status: :unprocessable_entity }
       end
     end
-    Tournament.new.create(@create_matching.id, @create_matching.start)
-    Card.new.create(@create_matching.id)
   end
 
   def update

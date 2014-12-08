@@ -12,34 +12,34 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label "大会名" %><br>
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :owner %><br>
+    <%= f.label "主催者" %><br>
     <%= f.text_field :owner %>
   </div>
   <div class="field">
-    <%= f.label :title %><br>
+    <%= f.label "作品名" %><br>
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :reguration %><br>
+    <%= f.label "参加条件" %><br>
     <%= f.text_field :reguration %>
   </div>
   <div class="field">
-    <%= f.label :limit %><br>
+    <%= f.label "受付締切" %><br>
     <%= f.datetime_select :limit %>
   </div>
   <div class="field">
-    <%= f.label :start %><br>
+    <%= f.label "開始日時" %><br>
     <%= f.datetime_select :start %>
   </div>
   <div class="field">
-    <%= f.label :memo %><br>
+    <%= f.label "備考" %><br>
     <%= f.text_area :memo %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "更新する" %>
   </div>
 <% end %>

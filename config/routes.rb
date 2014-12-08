@@ -16,7 +16,6 @@ Rails.application.routes.draw do
     resources :participants
   end
   
-
   patch "/matchings/:id" => "matchings#update"
   root 'projects#index'
   # The priority is based upon order of creation: first created -> highest priority.
