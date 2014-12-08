@@ -9,16 +9,19 @@ Rails.application.routes.draw do
   resources :projects do
     resources :tasks, only: [:create, :destroy]
     resources :matchings
+    resources :matchings do
+      resource :tournament
+      resource :card
+    end
   end
   resources :users do
     resources :favorites, only: [:create, :destroy]
     resources :projects, only:[:show]
   end
-  resources :matchings, only: [:show] do
+  resources :matchings, only: [:show, :update] do
     resources :participants
   end
 
-  patch "/matchings/:id" => "matchings#update"
   root 'home#index'
 
 

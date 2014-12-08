@@ -30,11 +30,13 @@ ActiveRecord::Schema.define(version: 20141203051724) do
   create_table "favorites", force: true do |t|
     t.string   "title"
     t.integer  "user_id"
+    t.integer  "player_id"
     t.integer  "project_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "favorites", ["player_id"], name: "index_favorites_on_player_id", using: :btree
   add_index "favorites", ["project_id"], name: "index_favorites_on_project_id", using: :btree
   add_index "favorites", ["user_id"], name: "index_favorites_on_user_id", using: :btree
 
@@ -66,6 +68,26 @@ ActiveRecord::Schema.define(version: 20141203051724) do
   add_index "participants", ["matching_id"], name: "index_participants_on_matching_id", using: :btree
   add_index "participants", ["user_id"], name: "index_participants_on_user_id", using: :btree
 
+  create_table "players", force: true do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "username"
+  end
+
+  add_index "players", ["email"], name: "index_players_on_email", using: :btree
+  add_index "players", ["reset_password_token"], name: "index_players_on_reset_password_token", unique: true, using: :btree
+  add_index "players", ["username"], name: "index_players_on_username", unique: true, using: :btree
+
   create_table "projects", force: true do |t|
     t.string   "title"
     t.string   "genre"
@@ -75,6 +97,7 @@ ActiveRecord::Schema.define(version: 20141203051724) do
 
   create_table "tasks", force: true do |t|
     t.string   "title"
+    t.string   "contributor"
     t.integer  "project_id"
     t.datetime "created_at"
     t.datetime "updated_at"
