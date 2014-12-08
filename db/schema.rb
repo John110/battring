@@ -88,6 +88,7 @@ ActiveRecord::Schema.define(version: 20141203051724) do
     t.datetime "start"
     t.string   "result"
     t.string   "cards"
+    t.boolean  "is_second_battle"
     t.integer  "card_id"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -6,6 +6,7 @@ class CreateTournaments < ActiveRecord::Migration
       t.datetime :start
       t.string :result
       t.string :cards
+      t.boolean :is_second_battle
       t.references :card, index: true
 
       t.timestamps
