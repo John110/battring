@@ -1,0 +1,24 @@
+<head>
+  <meta charset="UTF-8">
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "chat.js.coffee"%>
+</head>
+<body>
+
+<div>ようこそ、<%= current_player.username %>さん</div>
+
+<!-- jsに食わせたい情報などなど -->
+<div id="username" style="display:none;"><%= current_player.username %></div>
+
+<!-- チャットのタイムラインとかテキストボックスとか -->
+<div id="timeline" style="margin:20px;">
+  <div id="chat" data-uri="<%= request.host %>:3000/websocket"></div>
+</div>
+
+<div>
+  <form class="form-horizontal">
+    <input type="text" class="form-control" id="msgbody" />
+    <input type="button" class="btn btn-primary" id="send" value="送信"/>
+  </form>
+</div>
+</body>
