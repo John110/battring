@@ -1,0 +1,1923 @@
+# Logfile created on 2014-12-08 16:34:34 +0900 by logger.rb/44203
+I [2014-12-08 16:34:34.843] [[32mConnectionManager[0m] Connection opened: #<Connection::97c04fc54d7d7a53ca3f>
+I [2014-12-08 16:34:34.853] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:34:34.853] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:34:34.853] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"97c04fc54d7d7a53ca3f"}
+I [2014-12-08 16:34:34.853] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::97c04fc54d7d7a53ca3f>
+I [2014-12-08 16:34:34.856] [[32mDispatcher[0m] Event client_connected Finished in 0.002855 seconds
+I [2014-12-08 16:34:34.861] [[32mChannel[0m] #<Connection::97c04fc54d7d7a53ca3f> subscribed to channel 
+I [2014-12-08 16:34:34.862] [[32mChannel[0m] sending token
+I [2014-12-08 16:34:45.885] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:34:45.886] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:34:45.886] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"aaaaa", "group_id"=>""}
+I [2014-12-08 16:34:45.886] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::97c04fc54d7d7a53ca3f>
+I [2014-12-08 16:34:45.887] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"aaaaa", "group_id"=>""}
+I [2014-12-08 16:34:45.888] [[32mDispatcher[0m] Event new_message Finished in 0.002373 seconds
+I [2014-12-08 16:34:48.654] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:34:48.655] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:34:48.655] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:34:48.655] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::97c04fc54d7d7a53ca3f>
+I [2014-12-08 16:34:48.656] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:34:48.657] [[32mDispatcher[0m] Event new_message Finished in 0.002109 seconds
+I [2014-12-08 16:38:06.877] [[32mChannel[0m] #<Connection::97c04fc54d7d7a53ca3f> unsubscribed from channel 
+I [2014-12-08 16:38:06.884] [[32mConnectionManager[0m] Connection closed: #<Connection::97c04fc54d7d7a53ca3f>
+I [2014-12-08 16:38:18.811] [[32mConnectionManager[0m] Connection opened: #<Connection::b556cf35a5616f2d12d3>
+I [2014-12-08 16:38:18.820] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:38:18.822] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:38:18.822] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"b556cf35a5616f2d12d3"}
+I [2014-12-08 16:38:18.822] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b556cf35a5616f2d12d3>
+I [2014-12-08 16:38:18.827] [[32mDispatcher[0m] Event client_connected Finished in 0.000426 seconds
+I [2014-12-08 16:38:18.832] [[32mChannel[0m] #<Connection::b556cf35a5616f2d12d3> subscribed to channel 
+I [2014-12-08 16:38:18.833] [[32mChannel[0m] sending token
+I [2014-12-08 16:38:26.752] [[32mChannel[0m] #<Connection::b556cf35a5616f2d12d3> unsubscribed from channel 
+I [2014-12-08 16:38:26.752] [[32mConnectionManager[0m] Connection closed: #<Connection::b556cf35a5616f2d12d3>
+I [2014-12-08 16:38:29.579] [[32mConnectionManager[0m] Connection opened: #<Connection::621e456b1ddbd7d7f8b3>
+I [2014-12-08 16:38:29.581] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:38:29.581] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:38:29.581] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"621e456b1ddbd7d7f8b3"}
+I [2014-12-08 16:38:29.581] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::621e456b1ddbd7d7f8b3>
+I [2014-12-08 16:38:29.583] [[32mDispatcher[0m] Event client_connected Finished in 0.001472 seconds
+I [2014-12-08 16:38:29.592] [[32mChannel[0m] #<Connection::621e456b1ddbd7d7f8b3> subscribed to channel 
+I [2014-12-08 16:38:29.592] [[32mChannel[0m] sending token
+I [2014-12-08 16:39:33.797] [[32mChannel[0m] #<Connection::621e456b1ddbd7d7f8b3> unsubscribed from channel 
+I [2014-12-08 16:39:33.797] [[32mConnectionManager[0m] Connection closed: #<Connection::621e456b1ddbd7d7f8b3>
+I [2014-12-08 16:39:38.143] [[32mConnectionManager[0m] Connection opened: #<Connection::29c3d194caef44e582fd>
+I [2014-12-08 16:39:38.144] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:39:38.144] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:39:38.145] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"29c3d194caef44e582fd"}
+I [2014-12-08 16:39:38.145] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::29c3d194caef44e582fd>
+I [2014-12-08 16:39:38.145] [[32mDispatcher[0m] Event client_connected Finished in 0.00051 seconds
+I [2014-12-08 16:39:38.154] [[32mChannel[0m] #<Connection::29c3d194caef44e582fd> subscribed to channel 
+I [2014-12-08 16:39:38.154] [[32mChannel[0m] sending token
+I [2014-12-08 16:39:41.930] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:39:41.930] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:39:41.931] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:39:41.931] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::29c3d194caef44e582fd>
+I [2014-12-08 16:39:41.932] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:39:41.933] [[32mDispatcher[0m] Event new_message Finished in 0.001907 seconds
+I [2014-12-08 16:42:49.365] [[32mChannel[0m] #<Connection::29c3d194caef44e582fd> unsubscribed from channel 
+I [2014-12-08 16:42:49.365] [[32mConnectionManager[0m] Connection closed: #<Connection::29c3d194caef44e582fd>
+I [2014-12-08 16:42:52.151] [[32mConnectionManager[0m] Connection opened: #<Connection::c35dfba34b0cb8b6a08e>
+I [2014-12-08 16:42:52.152] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:42:52.152] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:42:52.152] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"c35dfba34b0cb8b6a08e"}
+I [2014-12-08 16:42:52.152] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c35dfba34b0cb8b6a08e>
+I [2014-12-08 16:42:52.155] [[32mDispatcher[0m] Event client_connected Finished in 0.002037 seconds
+I [2014-12-08 16:42:52.165] [[32mChannel[0m] #<Connection::c35dfba34b0cb8b6a08e> subscribed to channel 
+I [2014-12-08 16:42:52.165] [[32mChannel[0m] sending token
+I [2014-12-08 16:43:07.423] [[32mChannel[0m] #<Connection::c35dfba34b0cb8b6a08e> unsubscribed from channel 
+I [2014-12-08 16:43:07.424] [[32mConnectionManager[0m] Connection closed: #<Connection::c35dfba34b0cb8b6a08e>
+I [2014-12-08 16:43:10.259] [[32mConnectionManager[0m] Connection opened: #<Connection::49bc1f650e975631f490>
+I [2014-12-08 16:43:10.261] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:43:10.261] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:43:10.261] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"49bc1f650e975631f490"}
+I [2014-12-08 16:43:10.261] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::49bc1f650e975631f490>
+I [2014-12-08 16:43:10.261] [[32mDispatcher[0m] Event client_connected Finished in 0.000547 seconds
+I [2014-12-08 16:43:10.278] [[32mChannel[0m] #<Connection::49bc1f650e975631f490> subscribed to channel 
+I [2014-12-08 16:43:10.279] [[32mChannel[0m] sending token
+I [2014-12-08 16:43:36.837] [[32mChannel[0m] #<Connection::49bc1f650e975631f490> unsubscribed from channel 
+I [2014-12-08 16:43:36.837] [[32mConnectionManager[0m] Connection closed: #<Connection::49bc1f650e975631f490>
+I [2014-12-08 16:43:39.865] [[32mConnectionManager[0m] Connection opened: #<Connection::5d539d9fea6ef67b32b2>
+I [2014-12-08 16:43:39.866] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:43:39.866] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:43:39.866] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"5d539d9fea6ef67b32b2"}
+I [2014-12-08 16:43:39.866] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5d539d9fea6ef67b32b2>
+I [2014-12-08 16:43:39.866] [[32mDispatcher[0m] Event client_connected Finished in 0.000438 seconds
+I [2014-12-08 16:43:39.870] [[32mChannel[0m] #<Connection::5d539d9fea6ef67b32b2> subscribed to channel 
+I [2014-12-08 16:43:39.870] [[32mChannel[0m] sending token
+I [2014-12-08 16:43:48.552] [[32mChannel[0m] #<Connection::5d539d9fea6ef67b32b2> unsubscribed from channel 
+I [2014-12-08 16:43:48.552] [[32mConnectionManager[0m] Connection closed: #<Connection::5d539d9fea6ef67b32b2>
+I [2014-12-08 16:43:51.487] [[32mConnectionManager[0m] Connection opened: #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:43:51.490] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:43:51.491] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:43:51.491] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"64e36aa2e5842e9ea0e6"}
+I [2014-12-08 16:43:51.491] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:43:51.494] [[32mDispatcher[0m] Event client_connected Finished in 0.002241 seconds
+I [2014-12-08 16:43:51.532] [[32mChannel[0m] #<Connection::64e36aa2e5842e9ea0e6> subscribed to channel 
+I [2014-12-08 16:43:51.532] [[32mChannel[0m] sending token
+I [2014-12-08 16:43:58.702] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:43:58.702] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:43:58.702] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsfsd", "group_id"=>""}
+I [2014-12-08 16:43:58.702] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:43:58.703] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsfsd", "group_id"=>""}
+I [2014-12-08 16:43:58.704] [[32mDispatcher[0m] Event new_message Finished in 0.00191 seconds
+I [2014-12-08 16:44:00.402] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:44:00.403] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:44:00.403] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsfdas", "group_id"=>""}
+I [2014-12-08 16:44:00.403] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:44:00.405] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsfdas", "group_id"=>""}
+I [2014-12-08 16:44:00.406] [[32mDispatcher[0m] Event new_message Finished in 0.002596 seconds
+I [2014-12-08 16:44:02.701] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:44:02.701] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:44:02.701] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdaf", "group_id"=>""}
+I [2014-12-08 16:44:02.701] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:44:02.705] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdaf", "group_id"=>""}
+I [2014-12-08 16:44:02.709] [[32mDispatcher[0m] Event new_message Finished in 0.007493 seconds
+I [2014-12-08 16:44:04.838] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:44:04.838] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:44:04.839] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsadfsa", "group_id"=>""}
+I [2014-12-08 16:44:04.839] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:44:04.840] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsadfsa", "group_id"=>""}
+I [2014-12-08 16:44:04.841] [[32mDispatcher[0m] Event new_message Finished in 0.002314 seconds
+I [2014-12-08 16:44:07.678] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:44:07.679] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:44:07.680] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafa", "group_id"=>""}
+I [2014-12-08 16:44:07.680] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:44:07.684] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafa", "group_id"=>""}
+I [2014-12-08 16:44:07.687] [[32mDispatcher[0m] Event new_message Finished in 0.000669 seconds
+I [2014-12-08 16:48:34.291] [[32mChannel[0m] #<Connection::64e36aa2e5842e9ea0e6> unsubscribed from channel 
+I [2014-12-08 16:48:34.291] [[32mConnectionManager[0m] Connection closed: #<Connection::64e36aa2e5842e9ea0e6>
+I [2014-12-08 16:48:38.458] [[32mConnectionManager[0m] Connection opened: #<Connection::3d987da0d80b753935c3>
+I [2014-12-08 16:48:38.460] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:48:38.460] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:48:38.460] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"3d987da0d80b753935c3"}
+I [2014-12-08 16:48:38.460] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3d987da0d80b753935c3>
+I [2014-12-08 16:48:38.461] [[32mDispatcher[0m] Event client_connected Finished in 0.000587999999999999 seconds
+I [2014-12-08 16:48:38.476] [[32mChannel[0m] #<Connection::3d987da0d80b753935c3> subscribed to channel 
+I [2014-12-08 16:48:38.476] [[32mChannel[0m] sending token
+I [2014-12-08 16:48:42.759] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:48:42.759] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:48:42.759] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 16:48:42.759] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3d987da0d80b753935c3>
+I [2014-12-08 16:48:42.761] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 16:48:42.762] [[32mDispatcher[0m] Event new_message Finished in 0.002875 seconds
+I [2014-12-08 16:48:44.112] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:48:44.112] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:48:44.112] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 16:48:44.112] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3d987da0d80b753935c3>
+I [2014-12-08 16:48:44.113] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 16:48:44.113] [[32mDispatcher[0m] Event new_message Finished in 0.000876 seconds
+I [2014-12-08 16:50:25.444] [[32mChannel[0m] #<Connection::3d987da0d80b753935c3> unsubscribed from channel 
+I [2014-12-08 16:50:25.444] [[32mConnectionManager[0m] Connection closed: #<Connection::3d987da0d80b753935c3>
+I [2014-12-08 16:50:29.682] [[32mConnectionManager[0m] Connection opened: #<Connection::d37043c892c034e8172c>
+I [2014-12-08 16:50:29.685] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:50:29.686] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:50:29.686] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"d37043c892c034e8172c"}
+I [2014-12-08 16:50:29.686] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d37043c892c034e8172c>
+I [2014-12-08 16:50:29.689] [[32mDispatcher[0m] Event client_connected Finished in 0.002264 seconds
+I [2014-12-08 16:50:29.699] [[32mChannel[0m] #<Connection::d37043c892c034e8172c> subscribed to channel 
+I [2014-12-08 16:50:29.699] [[32mChannel[0m] sending token
+I [2014-12-08 16:50:34.607] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:50:34.608] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:50:34.608] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:50:34.608] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d37043c892c034e8172c>
+I [2014-12-08 16:50:34.609] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:50:34.611] [[32mDispatcher[0m] Event new_message Finished in 0.002288 seconds
+I [2014-12-08 16:50:37.345] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:50:37.345] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:50:37.345] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:50:37.345] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d37043c892c034e8172c>
+I [2014-12-08 16:50:37.347] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:50:37.348] [[32mDispatcher[0m] Event new_message Finished in 0.002531 seconds
+I [2014-12-08 16:50:39.233] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:50:39.234] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:50:39.235] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:50:39.235] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d37043c892c034e8172c>
+I [2014-12-08 16:50:39.245] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"aaa", "group_id"=>""}
+I [2014-12-08 16:50:39.252] [[32mDispatcher[0m] Event new_message Finished in 0.001469 seconds
+I [2014-12-08 16:52:08.349] [[32mChannel[0m] #<Connection::d37043c892c034e8172c> unsubscribed from channel 
+I [2014-12-08 16:52:08.349] [[32mConnectionManager[0m] Connection closed: #<Connection::d37043c892c034e8172c>
+I [2014-12-08 16:52:11.330] [[32mConnectionManager[0m] Connection opened: #<Connection::1de54c7e70de94beee1e>
+I [2014-12-08 16:52:11.331] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:52:11.331] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:52:11.331] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"1de54c7e70de94beee1e"}
+I [2014-12-08 16:52:11.331] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1de54c7e70de94beee1e>
+I [2014-12-08 16:52:11.332] [[32mDispatcher[0m] Event client_connected Finished in 0.000484 seconds
+I [2014-12-08 16:52:11.353] [[32mChannel[0m] #<Connection::1de54c7e70de94beee1e> subscribed to channel 
+I [2014-12-08 16:52:11.353] [[32mChannel[0m] sending token
+I [2014-12-08 16:52:13.571] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:52:13.572] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:52:13.572] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsa", "group_id"=>""}
+I [2014-12-08 16:52:13.572] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1de54c7e70de94beee1e>
+I [2014-12-08 16:52:13.573] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsa", "group_id"=>""}
+I [2014-12-08 16:52:13.574] [[32mDispatcher[0m] Event new_message Finished in 0.001936 seconds
+I [2014-12-08 16:52:16.369] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:52:16.369] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:52:16.369] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdfs", "group_id"=>""}
+I [2014-12-08 16:52:16.369] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1de54c7e70de94beee1e>
+I [2014-12-08 16:52:16.370] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdfs", "group_id"=>""}
+I [2014-12-08 16:52:16.371] [[32mDispatcher[0m] Event new_message Finished in 0.00147 seconds
+I [2014-12-08 16:53:18.463] [[32mChannel[0m] #<Connection::1de54c7e70de94beee1e> unsubscribed from channel 
+I [2014-12-08 16:53:18.463] [[32mConnectionManager[0m] Connection closed: #<Connection::1de54c7e70de94beee1e>
+I [2014-12-08 16:53:21.415] [[32mConnectionManager[0m] Connection opened: #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 16:53:21.416] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 16:53:21.416] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 16:53:21.416] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"abdbe99a8cee03a4f986"}
+I [2014-12-08 16:53:21.416] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 16:53:21.417] [[32mDispatcher[0m] Event client_connected Finished in 0.000592 seconds
+I [2014-12-08 16:53:21.463] [[32mChannel[0m] #<Connection::abdbe99a8cee03a4f986> subscribed to channel 
+I [2014-12-08 16:53:21.463] [[32mChannel[0m] sending token
+I [2014-12-08 16:53:23.429] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:53:23.429] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:53:23.429] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsfasd", "group_id"=>""}
+I [2014-12-08 16:53:23.429] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 16:53:23.430] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsfasd", "group_id"=>""}
+I [2014-12-08 16:53:23.430] [[32mDispatcher[0m] Event new_message Finished in 0.000746 seconds
+I [2014-12-08 16:53:24.701] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:53:24.701] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:53:24.701] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdafs", "group_id"=>""}
+I [2014-12-08 16:53:24.701] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 16:53:24.702] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdafs", "group_id"=>""}
+I [2014-12-08 16:53:24.702] [[32mDispatcher[0m] Event new_message Finished in 0.000809999999999999 seconds
+I [2014-12-08 16:53:25.562] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:53:25.562] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:53:25.562] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 16:53:25.562] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 16:53:25.563] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 16:53:25.564] [[32mDispatcher[0m] Event new_message Finished in 0.001578 seconds
+I [2014-12-08 16:53:26.712] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 16:53:26.713] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 16:53:26.713] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdfa", "group_id"=>""}
+I [2014-12-08 16:53:26.713] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 16:53:26.713] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdfa", "group_id"=>""}
+I [2014-12-08 16:53:26.714] [[32mDispatcher[0m] Event new_message Finished in 0.000747 seconds
+I [2014-12-08 17:02:29.608] [[32mChannel[0m] #<Connection::abdbe99a8cee03a4f986> unsubscribed from channel 
+I [2014-12-08 17:02:29.609] [[32mConnectionManager[0m] Connection closed: #<Connection::abdbe99a8cee03a4f986>
+I [2014-12-08 17:02:31.623] [[32mConnectionManager[0m] Connection opened: #<Connection::c56a1af9face6041a5ec>
+I [2014-12-08 17:02:31.623] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:02:31.623] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:02:31.623] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"c56a1af9face6041a5ec"}
+I [2014-12-08 17:02:31.623] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c56a1af9face6041a5ec>
+I [2014-12-08 17:02:31.624] [[32mDispatcher[0m] Event client_connected Finished in 0.000384 seconds
+I [2014-12-08 17:02:31.686] [[32mChannel[0m] #<Connection::c56a1af9face6041a5ec> subscribed to channel 
+I [2014-12-08 17:02:31.687] [[32mChannel[0m] sending token
+I [2014-12-08 17:03:14.848] [[32mChannel[0m] #<Connection::c56a1af9face6041a5ec> unsubscribed from channel 
+I [2014-12-08 17:03:14.848] [[32mConnectionManager[0m] Connection closed: #<Connection::c56a1af9face6041a5ec>
+I [2014-12-08 17:03:16.894] [[32mConnectionManager[0m] Connection opened: #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:03:16.897] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:03:16.897] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:03:16.897] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"6352cd1e0b04322fac1e"}
+I [2014-12-08 17:03:16.897] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:03:16.898] [[32mDispatcher[0m] Event client_connected Finished in 0.000474 seconds
+I [2014-12-08 17:03:16.959] [[32mChannel[0m] #<Connection::6352cd1e0b04322fac1e> subscribed to channel 
+I [2014-12-08 17:03:16.959] [[32mChannel[0m] sending token
+I [2014-12-08 17:03:24.561] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:03:24.561] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:03:24.561] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:03:24.561] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:03:24.561] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:03:24.562] [[32mDispatcher[0m] Event new_message Finished in 0.000864 seconds
+I [2014-12-08 17:03:25.955] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:03:25.955] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:03:25.955] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafas", "group_id"=>""}
+I [2014-12-08 17:03:25.955] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:03:25.956] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafas", "group_id"=>""}
+I [2014-12-08 17:03:25.956] [[32mDispatcher[0m] Event new_message Finished in 0.000545 seconds
+I [2014-12-08 17:03:27.998] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:03:27.998] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:03:27.999] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:03:27.999] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:03:27.100] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:03:27.100] [[32mDispatcher[0m] Event new_message Finished in 0.000555 seconds
+I [2014-12-08 17:03:28.721] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:03:28.721] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:03:28.721] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdafsa", "group_id"=>""}
+I [2014-12-08 17:03:28.721] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:03:28.721] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdafsa", "group_id"=>""}
+I [2014-12-08 17:03:28.721] [[32mDispatcher[0m] Event new_message Finished in 0.000594 seconds
+I [2014-12-08 17:07:34.478] [[32mChannel[0m] #<Connection::6352cd1e0b04322fac1e> unsubscribed from channel 
+I [2014-12-08 17:07:34.478] [[32mConnectionManager[0m] Connection closed: #<Connection::6352cd1e0b04322fac1e>
+I [2014-12-08 17:07:37.239] [[32mConnectionManager[0m] Connection opened: #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:37.240] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:07:37.240] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:07:37.240] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"730b1e1a3c4440f243f7"}
+I [2014-12-08 17:07:37.240] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:37.241] [[32mDispatcher[0m] Event client_connected Finished in 0.000394 seconds
+I [2014-12-08 17:07:37.249] [[32mChannel[0m] #<Connection::730b1e1a3c4440f243f7> subscribed to channel 
+I [2014-12-08 17:07:37.249] [[32mChannel[0m] sending token
+I [2014-12-08 17:07:41.672] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:41.672] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:41.672] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafasd", "group_id"=>""}
+I [2014-12-08 17:07:41.672] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:41.673] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafasd", "group_id"=>""}
+I [2014-12-08 17:07:41.674] [[32mDispatcher[0m] Event new_message Finished in 0.001223 seconds
+I [2014-12-08 17:07:42.828] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:42.828] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:42.828] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsaf", "group_id"=>""}
+I [2014-12-08 17:07:42.828] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:42.829] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsaf", "group_id"=>""}
+I [2014-12-08 17:07:42.830] [[32mDispatcher[0m] Event new_message Finished in 0.001022 seconds
+I [2014-12-08 17:07:43.969] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:43.969] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:43.969] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdafas", "group_id"=>""}
+I [2014-12-08 17:07:43.969] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:43.970] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdafas", "group_id"=>""}
+I [2014-12-08 17:07:43.971] [[32mDispatcher[0m] Event new_message Finished in 0.001389 seconds
+I [2014-12-08 17:07:45.690] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:45.691] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:45.691] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafds", "group_id"=>""}
+I [2014-12-08 17:07:45.691] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:45.702] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafds", "group_id"=>""}
+I [2014-12-08 17:07:45.707] [[32mDispatcher[0m] Event new_message Finished in 0.001451 seconds
+I [2014-12-08 17:07:46.243] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:46.243] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:46.243] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsfa", "group_id"=>""}
+I [2014-12-08 17:07:46.243] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:46.243] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsfa", "group_id"=>""}
+I [2014-12-08 17:07:46.244] [[32mDispatcher[0m] Event new_message Finished in 0.000596 seconds
+I [2014-12-08 17:07:47.212] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:47.212] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:47.212] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsaf", "group_id"=>""}
+I [2014-12-08 17:07:47.212] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:47.213] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsaf", "group_id"=>""}
+I [2014-12-08 17:07:47.213] [[32mDispatcher[0m] Event new_message Finished in 0.000757 seconds
+I [2014-12-08 17:07:48.341] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:07:48.341] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:07:48.341] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsafds", "group_id"=>""}
+I [2014-12-08 17:07:48.341] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:07:48.342] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsafds", "group_id"=>""}
+I [2014-12-08 17:07:48.342] [[32mDispatcher[0m] Event new_message Finished in 0.000812 seconds
+I [2014-12-08 17:08:07.608] [[32mChannel[0m] #<Connection::730b1e1a3c4440f243f7> unsubscribed from channel 
+I [2014-12-08 17:08:07.608] [[32mConnectionManager[0m] Connection closed: #<Connection::730b1e1a3c4440f243f7>
+I [2014-12-08 17:08:09.742] [[32mConnectionManager[0m] Connection opened: #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:09.745] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:08:09.745] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:08:09.745] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"dc68201675472bc4375f"}
+I [2014-12-08 17:08:09.745] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:09.747] [[32mDispatcher[0m] Event client_connected Finished in 0.001025 seconds
+I [2014-12-08 17:08:09.769] [[32mChannel[0m] #<Connection::dc68201675472bc4375f> subscribed to channel 
+I [2014-12-08 17:08:09.769] [[32mChannel[0m] sending token
+I [2014-12-08 17:08:15.125] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:15.125] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:15.125] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafds", "group_id"=>""}
+I [2014-12-08 17:08:15.125] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:15.126] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafds", "group_id"=>""}
+I [2014-12-08 17:08:15.126] [[32mDispatcher[0m] Event new_message Finished in 0.000995 seconds
+I [2014-12-08 17:08:16.772] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:16.773] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:16.773] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:08:16.773] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:16.774] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:08:16.774] [[32mDispatcher[0m] Event new_message Finished in 0.001364 seconds
+I [2014-12-08 17:08:17.853] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:17.853] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:17.853] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsf", "group_id"=>""}
+I [2014-12-08 17:08:17.854] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:17.854] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsf", "group_id"=>""}
+I [2014-12-08 17:08:17.855] [[32mDispatcher[0m] Event new_message Finished in 0.001392 seconds
+I [2014-12-08 17:08:19.439] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:19.439] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:19.439] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:08:19.439] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:19.440] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:08:19.440] [[32mDispatcher[0m] Event new_message Finished in 0.000509 seconds
+I [2014-12-08 17:08:19.610] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:19.610] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:19.610] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:19.610] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:19.611] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:19.611] [[32mDispatcher[0m] Event new_message Finished in 0.000537 seconds
+I [2014-12-08 17:08:21.919] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:21.920] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:21.921] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:21.923] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:21.935] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:21.946] [[32mDispatcher[0m] Event new_message Finished in 0.001906 seconds
+I [2014-12-08 17:08:21.672] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:21.672] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:21.672] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:21.672] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:21.673] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:21.674] [[32mDispatcher[0m] Event new_message Finished in 0.001846 seconds
+I [2014-12-08 17:08:22.153] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:22.154] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:22.154] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:22.154] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:22.154] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:22.155] [[32mDispatcher[0m] Event new_message Finished in 0.000981 seconds
+I [2014-12-08 17:08:23.482] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:23.482] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:23.482] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:23.482] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:23.483] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:23.483] [[32mDispatcher[0m] Event new_message Finished in 0.000945 seconds
+I [2014-12-08 17:08:24.384] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:24.384] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:24.384] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:24.385] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:24.387] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:24.388] [[32mDispatcher[0m] Event new_message Finished in 0.002747 seconds
+I [2014-12-08 17:08:25.191] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:25.191] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:25.192] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:25.192] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:25.193] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:25.194] [[32mDispatcher[0m] Event new_message Finished in 0.002341 seconds
+I [2014-12-08 17:08:26.335] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:26.336] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:26.336] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:26.337] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:26.342] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:26.344] [[32mDispatcher[0m] Event new_message Finished in 0.000676 seconds
+I [2014-12-08 17:08:26.557] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:26.558] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:26.558] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:26.558] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:26.558] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:26.559] [[32mDispatcher[0m] Event new_message Finished in 0.001014 seconds
+I [2014-12-08 17:08:27.995] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:27.995] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:27.995] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:27.995] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:27.996] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:27.996] [[32mDispatcher[0m] Event new_message Finished in 0.00097 seconds
+I [2014-12-08 17:08:28.515] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:28.515] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:28.515] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:28.515] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:28.516] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:28.516] [[32mDispatcher[0m] Event new_message Finished in 0.000556 seconds
+I [2014-12-08 17:08:29.171] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:29.172] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:29.172] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:29.172] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:29.176] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:29.179] [[32mDispatcher[0m] Event new_message Finished in 0.000656 seconds
+I [2014-12-08 17:08:29.618] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:29.619] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:29.619] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:29.619] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:29.619] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:29.620] [[32mDispatcher[0m] Event new_message Finished in 0.001262 seconds
+I [2014-12-08 17:08:30.143] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:30.143] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:30.143] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:30.144] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:30.145] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:30.145] [[32mDispatcher[0m] Event new_message Finished in 0.001681 seconds
+I [2014-12-08 17:08:31.537] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:31.537] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:31.537] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:31.537] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:31.537] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:31.538] [[32mDispatcher[0m] Event new_message Finished in 0.000569 seconds
+I [2014-12-08 17:08:32.935] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:32.937] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:32.938] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:32.940] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:32.952] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:32.963] [[32mDispatcher[0m] Event new_message Finished in 0.002098 seconds
+I [2014-12-08 17:08:32.733] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:32.733] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:32.733] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:32.733] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:32.734] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:32.734] [[32mDispatcher[0m] Event new_message Finished in 0.000788 seconds
+I [2014-12-08 17:08:33.350] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:33.350] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:33.350] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:33.350] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:33.351] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:33.351] [[32mDispatcher[0m] Event new_message Finished in 0.000574 seconds
+I [2014-12-08 17:08:33.884] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:33.884] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:33.884] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:33.884] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:33.884] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:33.885] [[32mDispatcher[0m] Event new_message Finished in 0.000736 seconds
+I [2014-12-08 17:08:35.300] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:35.300] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:35.300] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:35.300] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:35.301] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:35.301] [[32mDispatcher[0m] Event new_message Finished in 0.000837 seconds
+I [2014-12-08 17:08:35.935] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:35.935] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:35.935] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:35.935] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:35.936] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:35.936] [[32mDispatcher[0m] Event new_message Finished in 0.00096 seconds
+I [2014-12-08 17:08:36.604] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:36.604] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:36.604] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:36.604] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:36.605] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:36.606] [[32mDispatcher[0m] Event new_message Finished in 0.001599 seconds
+I [2014-12-08 17:08:37.252] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:37.253] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:37.253] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:37.253] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:37.254] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:37.254] [[32mDispatcher[0m] Event new_message Finished in 0.001434 seconds
+I [2014-12-08 17:08:38.699] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:38.699] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:38.699] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:38.699] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:38.700] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:38.700] [[32mDispatcher[0m] Event new_message Finished in 0.001077 seconds
+I [2014-12-08 17:08:39.333] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:39.333] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:39.333] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:39.333] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:39.335] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:39.336] [[32mDispatcher[0m] Event new_message Finished in 0.002148 seconds
+I [2014-12-08 17:08:40.171] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:08:40.171] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:08:40.172] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:40.172] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:08:40.172] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:08:40.172] [[32mDispatcher[0m] Event new_message Finished in 0.000737 seconds
+I [2014-12-08 17:10:12.796] [[32mChannel[0m] #<Connection::dc68201675472bc4375f> unsubscribed from channel 
+I [2014-12-08 17:10:12.796] [[32mConnectionManager[0m] Connection closed: #<Connection::dc68201675472bc4375f>
+I [2014-12-08 17:10:15.610] [[32mConnectionManager[0m] Connection opened: #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:15.612] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:10:15.612] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:10:15.612] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"90fd3641cf69d667baa2"}
+I [2014-12-08 17:10:15.612] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:15.613] [[32mDispatcher[0m] Event client_connected Finished in 0.001014 seconds
+I [2014-12-08 17:10:15.656] [[32mChannel[0m] #<Connection::90fd3641cf69d667baa2> subscribed to channel 
+I [2014-12-08 17:10:15.656] [[32mChannel[0m] sending token
+I [2014-12-08 17:10:18.582] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:18.582] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:18.582] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafd", "group_id"=>""}
+I [2014-12-08 17:10:18.582] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:18.583] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafd", "group_id"=>""}
+I [2014-12-08 17:10:18.583] [[32mDispatcher[0m] Event new_message Finished in 0.001082 seconds
+I [2014-12-08 17:10:19.725] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:19.726] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:19.726] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:10:19.726] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:19.727] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:10:19.727] [[32mDispatcher[0m] Event new_message Finished in 0.001341 seconds
+I [2014-12-08 17:10:21.167] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:21.167] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:21.167] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:10:21.168] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:21.171] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:10:21.174] [[32mDispatcher[0m] Event new_message Finished in 0.000564 seconds
+I [2014-12-08 17:10:21.881] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:21.881] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:21.881] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"f", "group_id"=>""}
+I [2014-12-08 17:10:21.881] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:21.882] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"f", "group_id"=>""}
+I [2014-12-08 17:10:21.882] [[32mDispatcher[0m] Event new_message Finished in 0.000523 seconds
+I [2014-12-08 17:10:22.378] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:22.378] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:22.378] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:22.379] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:22.380] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:22.381] [[32mDispatcher[0m] Event new_message Finished in 0.002388 seconds
+I [2014-12-08 17:10:22.779] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:22.780] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:22.780] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:22.780] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:22.781] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:22.782] [[32mDispatcher[0m] Event new_message Finished in 0.002105 seconds
+I [2014-12-08 17:10:23.150] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:23.150] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:23.150] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:23.150] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:23.151] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:23.152] [[32mDispatcher[0m] Event new_message Finished in 0.001421 seconds
+I [2014-12-08 17:10:23.831] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:23.831] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:23.831] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:23.831] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:23.832] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:23.833] [[32mDispatcher[0m] Event new_message Finished in 0.001755 seconds
+I [2014-12-08 17:10:24.245] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:24.245] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:24.245] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:24.245] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:24.246] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:24.247] [[32mDispatcher[0m] Event new_message Finished in 0.001804 seconds
+I [2014-12-08 17:10:24.952] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:24.952] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:24.952] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:24.952] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:24.952] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:24.953] [[32mDispatcher[0m] Event new_message Finished in 0.000859 seconds
+I [2014-12-08 17:10:25.401] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:10:25.401] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:10:25.401] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:25.402] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:10:25.403] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:10:25.403] [[32mDispatcher[0m] Event new_message Finished in 0.001556 seconds
+I [2014-12-08 17:11:06.532] [[32mChannel[0m] #<Connection::90fd3641cf69d667baa2> unsubscribed from channel 
+I [2014-12-08 17:11:06.532] [[32mConnectionManager[0m] Connection closed: #<Connection::90fd3641cf69d667baa2>
+I [2014-12-08 17:11:09.579] [[32mConnectionManager[0m] Connection opened: #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:09.682] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:11:09.692] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:11:09.696] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"0919f2c3646f3260efee"}
+I [2014-12-08 17:11:09.699] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:09.763] [[32mDispatcher[0m] Event client_connected Finished in 0.000512 seconds
+I [2014-12-08 17:11:09.776] [[32mChannel[0m] #<Connection::0919f2c3646f3260efee> subscribed to channel 
+I [2014-12-08 17:11:09.778] [[32mChannel[0m] sending token
+I [2014-12-08 17:11:13.687] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:13.687] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:13.687] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"sdafasf", "group_id"=>""}
+I [2014-12-08 17:11:13.687] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:13.687] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"sdafasf", "group_id"=>""}
+I [2014-12-08 17:11:13.687] [[32mDispatcher[0m] Event new_message Finished in 0.000566 seconds
+I [2014-12-08 17:11:14.855] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:14.855] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:14.855] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdaf", "group_id"=>""}
+I [2014-12-08 17:11:14.855] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:14.857] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdaf", "group_id"=>""}
+I [2014-12-08 17:11:14.858] [[32mDispatcher[0m] Event new_message Finished in 0.002129 seconds
+I [2014-12-08 17:11:15.575] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:15.575] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:15.575] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:15.575] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:15.576] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:15.576] [[32mDispatcher[0m] Event new_message Finished in 0.000774 seconds
+I [2014-12-08 17:11:16.352] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:16.353] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:16.353] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:11:16.353] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:16.354] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:11:16.354] [[32mDispatcher[0m] Event new_message Finished in 0.001287 seconds
+I [2014-12-08 17:11:17.186] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:17.186] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:17.186] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:11:17.186] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:17.187] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:11:17.187] [[32mDispatcher[0m] Event new_message Finished in 0.001206 seconds
+I [2014-12-08 17:11:18.253] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:18.255] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:18.256] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:18.256] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:18.261] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:18.264] [[32mDispatcher[0m] Event new_message Finished in 0.000717 seconds
+I [2014-12-08 17:11:18.920] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:18.920] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:18.920] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:18.920] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:18.921] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:18.922] [[32mDispatcher[0m] Event new_message Finished in 0.001226 seconds
+I [2014-12-08 17:11:19.904] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:19.904] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:19.904] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsfasd", "group_id"=>""}
+I [2014-12-08 17:11:19.904] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:19.904] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsfasd", "group_id"=>""}
+I [2014-12-08 17:11:19.905] [[32mDispatcher[0m] Event new_message Finished in 0.000495 seconds
+I [2014-12-08 17:11:20.723] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:20.723] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:20.723] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:20.723] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:20.725] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:20.726] [[32mDispatcher[0m] Event new_message Finished in 0.00256 seconds
+I [2014-12-08 17:11:21.690] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:21.691] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:21.691] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:21.691] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:21.691] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:21.692] [[32mDispatcher[0m] Event new_message Finished in 0.001553 seconds
+I [2014-12-08 17:11:22.622] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:22.622] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:22.622] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:22.622] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:22.623] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:22.624] [[32mDispatcher[0m] Event new_message Finished in 0.001543 seconds
+I [2014-12-08 17:11:23.640] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:23.640] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:23.640] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:23.640] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:23.641] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:23.641] [[32mDispatcher[0m] Event new_message Finished in 0.001418 seconds
+I [2014-12-08 17:11:24.517] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:24.517] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:24.517] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:24.518] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:24.519] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:24.520] [[32mDispatcher[0m] Event new_message Finished in 0.002101 seconds
+I [2014-12-08 17:11:25.501] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:25.501] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:25.501] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:25.502] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:25.504] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:25.505] [[32mDispatcher[0m] Event new_message Finished in 0.002915 seconds
+I [2014-12-08 17:11:26.323] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:26.323] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:26.324] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:26.324] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:26.325] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:26.325] [[32mDispatcher[0m] Event new_message Finished in 0.001431 seconds
+I [2014-12-08 17:11:27.265] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:27.265] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:27.265] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:11:27.265] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:27.266] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:11:27.266] [[32mDispatcher[0m] Event new_message Finished in 0.000604 seconds
+I [2014-12-08 17:11:28.177] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:28.178] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:28.178] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:11:28.178] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:28.180] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:11:28.181] [[32mDispatcher[0m] Event new_message Finished in 0.002845 seconds
+I [2014-12-08 17:11:29.100] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:29.100] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:29.100] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:29.100] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:29.101] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:29.101] [[32mDispatcher[0m] Event new_message Finished in 0.000573 seconds
+I [2014-12-08 17:11:29.980] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:29.980] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:29.980] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafasd", "group_id"=>""}
+I [2014-12-08 17:11:29.980] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:29.981] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafasd", "group_id"=>""}
+I [2014-12-08 17:11:29.982] [[32mDispatcher[0m] Event new_message Finished in 0.002117 seconds
+I [2014-12-08 17:11:30.763] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:30.763] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:30.763] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsdafasd", "group_id"=>""}
+I [2014-12-08 17:11:30.763] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:30.764] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsdafasd", "group_id"=>""}
+I [2014-12-08 17:11:30.764] [[32mDispatcher[0m] Event new_message Finished in 0.000959 seconds
+I [2014-12-08 17:11:31.594] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:31.595] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:31.595] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:11:31.595] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:31.597] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:11:31.599] [[32mDispatcher[0m] Event new_message Finished in 0.003218 seconds
+I [2014-12-08 17:11:32.443] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:32.443] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:32.443] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:32.443] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:32.443] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:32.443] [[32mDispatcher[0m] Event new_message Finished in 0.000517 seconds
+I [2014-12-08 17:11:33.301] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:33.301] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:33.301] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:11:33.301] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:33.302] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdas", "group_id"=>""}
+I [2014-12-08 17:11:33.302] [[32mDispatcher[0m] Event new_message Finished in 0.000742 seconds
+I [2014-12-08 17:11:34.228] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:34.228] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:34.229] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:11:34.229] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:34.229] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsa", "group_id"=>""}
+I [2014-12-08 17:11:34.230] [[32mDispatcher[0m] Event new_message Finished in 0.000889 seconds
+I [2014-12-08 17:11:35.119] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:11:35.119] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:11:35.119] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:35.119] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:11:35.119] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:11:35.119] [[32mDispatcher[0m] Event new_message Finished in 0.00054 seconds
+I [2014-12-08 17:12:26.927] [[32mChannel[0m] #<Connection::0919f2c3646f3260efee> unsubscribed from channel 
+I [2014-12-08 17:12:26.927] [[32mConnectionManager[0m] Connection closed: #<Connection::0919f2c3646f3260efee>
+I [2014-12-08 17:12:29.179] [[32mConnectionManager[0m] Connection opened: #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:29.180] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:12:29.180] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:12:29.180] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"d70ce103eed33056ae9b"}
+I [2014-12-08 17:12:29.180] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:29.181] [[32mDispatcher[0m] Event client_connected Finished in 0.000696 seconds
+I [2014-12-08 17:12:29.238] [[32mChannel[0m] #<Connection::d70ce103eed33056ae9b> subscribed to channel 
+I [2014-12-08 17:12:29.238] [[32mChannel[0m] sending token
+I [2014-12-08 17:12:32.373] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:32.373] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:32.373] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fsa", "group_id"=>""}
+I [2014-12-08 17:12:32.373] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:32.375] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fsa", "group_id"=>""}
+I [2014-12-08 17:12:32.377] [[32mDispatcher[0m] Event new_message Finished in 0.003054 seconds
+I [2014-12-08 17:12:33.447] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:33.447] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:33.447] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"ffafda", "group_id"=>""}
+I [2014-12-08 17:12:33.447] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:33.448] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"ffafda", "group_id"=>""}
+I [2014-12-08 17:12:33.448] [[32mDispatcher[0m] Event new_message Finished in 0.000575 seconds
+I [2014-12-08 17:12:34.114] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:34.117] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:34.117] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.118] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:34.125] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.128] [[32mDispatcher[0m] Event new_message Finished in 0.000914 seconds
+I [2014-12-08 17:12:34.175] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:34.175] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:34.175] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.175] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:34.177] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.178] [[32mDispatcher[0m] Event new_message Finished in 0.002377 seconds
+I [2014-12-08 17:12:34.324] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:34.324] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:34.324] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.324] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:34.325] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.326] [[32mDispatcher[0m] Event new_message Finished in 0.001309 seconds
+I [2014-12-08 17:12:34.625] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:34.625] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:34.625] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.626] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:34.626] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.626] [[32mDispatcher[0m] Event new_message Finished in 0.000633 seconds
+I [2014-12-08 17:12:34.816] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:34.816] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:34.816] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.816] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:34.818] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.819] [[32mDispatcher[0m] Event new_message Finished in 0.002603 seconds
+I [2014-12-08 17:12:34.992] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:34.992] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:34.992] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.992] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:34.993] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:34.993] [[32mDispatcher[0m] Event new_message Finished in 0.000867 seconds
+I [2014-12-08 17:12:35.458] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:35.458] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:35.458] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:35.458] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:35.459] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:35.459] [[32mDispatcher[0m] Event new_message Finished in 0.000577 seconds
+I [2014-12-08 17:12:35.769] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:35.769] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:35.769] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:35.769] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:35.769] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:35.770] [[32mDispatcher[0m] Event new_message Finished in 0.000567 seconds
+I [2014-12-08 17:12:35.946] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:35.946] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:35.946] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:35.946] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:35.947] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:35.948] [[32mDispatcher[0m] Event new_message Finished in 0.002078 seconds
+I [2014-12-08 17:12:36.115] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:36.115] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:36.115] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.115] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:36.116] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.116] [[32mDispatcher[0m] Event new_message Finished in 0.000781 seconds
+I [2014-12-08 17:12:36.282] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:36.282] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:36.282] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.282] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:36.282] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.283] [[32mDispatcher[0m] Event new_message Finished in 0.000861 seconds
+I [2014-12-08 17:12:36.447] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:36.447] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:36.447] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.447] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:36.448] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.448] [[32mDispatcher[0m] Event new_message Finished in 0.000585 seconds
+I [2014-12-08 17:12:36.599] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:36.599] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:36.599] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.599] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:36.600] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.600] [[32mDispatcher[0m] Event new_message Finished in 0.000679 seconds
+I [2014-12-08 17:12:36.774] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:36.775] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:36.775] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.775] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:36.776] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.776] [[32mDispatcher[0m] Event new_message Finished in 0.001388 seconds
+I [2014-12-08 17:12:36.931] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:36.931] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:36.931] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.931] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:36.932] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:36.932] [[32mDispatcher[0m] Event new_message Finished in 0.000739 seconds
+I [2014-12-08 17:12:37.109] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:37.109] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:37.109] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.109] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:37.110] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.111] [[32mDispatcher[0m] Event new_message Finished in 0.0013 seconds
+I [2014-12-08 17:12:37.443] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:37.443] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:37.443] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.443] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:37.443] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.444] [[32mDispatcher[0m] Event new_message Finished in 0.000865 seconds
+I [2014-12-08 17:12:37.619] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:37.619] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:37.619] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.619] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:37.620] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.620] [[32mDispatcher[0m] Event new_message Finished in 0.000611 seconds
+I [2014-12-08 17:12:37.766] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:37.766] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:37.766] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.766] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:37.766] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:37.767] [[32mDispatcher[0m] Event new_message Finished in 0.000778 seconds
+I [2014-12-08 17:12:38.779] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:38.781] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:38.781] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:38.782] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:38.791] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:38.801] [[32mDispatcher[0m] Event new_message Finished in 0.001527 seconds
+I [2014-12-08 17:12:38.233] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:38.233] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:38.233] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:38.233] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:38.234] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:38.234] [[32mDispatcher[0m] Event new_message Finished in 0.000748 seconds
+I [2014-12-08 17:12:38.425] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:38.425] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:38.425] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:38.425] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:38.426] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:38.427] [[32mDispatcher[0m] Event new_message Finished in 0.001507 seconds
+I [2014-12-08 17:12:44.977] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:44.977] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:44.977] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:44.977] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:44.978] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:44.978] [[32mDispatcher[0m] Event new_message Finished in 0.000942 seconds
+I [2014-12-08 17:12:45.218] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:45.218] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:45.218] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:45.218] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:45.219] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:45.219] [[32mDispatcher[0m] Event new_message Finished in 0.000769 seconds
+I [2014-12-08 17:12:45.429] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:45.429] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:45.429] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:45.429] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:45.430] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:45.430] [[32mDispatcher[0m] Event new_message Finished in 0.001229 seconds
+I [2014-12-08 17:12:45.713] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:45.713] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:45.713] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:45.713] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:45.714] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:45.716] [[32mDispatcher[0m] Event new_message Finished in 0.002014 seconds
+I [2014-12-08 17:12:52.831] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:52.832] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:52.832] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:52.832] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:52.833] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:52.834] [[32mDispatcher[0m] Event new_message Finished in 0.001661 seconds
+I [2014-12-08 17:12:53.508] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:53.510] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:53.510] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.512] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:53.519] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.522] [[32mDispatcher[0m] Event new_message Finished in 0.000953 seconds
+I [2014-12-08 17:12:53.271] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:53.271] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:53.271] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.271] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:53.272] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.272] [[32mDispatcher[0m] Event new_message Finished in 0.000792 seconds
+I [2014-12-08 17:12:53.483] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:53.483] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:53.483] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.483] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:53.484] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.486] [[32mDispatcher[0m] Event new_message Finished in 0.003264 seconds
+I [2014-12-08 17:12:53.765] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:12:53.765] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:12:53.765] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.765] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:12:53.766] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:12:53.767] [[32mDispatcher[0m] Event new_message Finished in 0.001464 seconds
+I [2014-12-08 17:23:08.310] [[32mChannel[0m] #<Connection::d70ce103eed33056ae9b> unsubscribed from channel 
+I [2014-12-08 17:23:08.310] [[32mConnectionManager[0m] Connection closed: #<Connection::d70ce103eed33056ae9b>
+I [2014-12-08 17:23:11.378] [[32mConnectionManager[0m] Connection opened: #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:11.382] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:23:11.382] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:23:11.382] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"af5c3c70cd2c44325212"}
+I [2014-12-08 17:23:11.383] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:11.384] [[32mDispatcher[0m] Event client_connected Finished in 0.001033 seconds
+I [2014-12-08 17:23:11.435] [[32mChannel[0m] #<Connection::af5c3c70cd2c44325212> subscribed to channel 
+I [2014-12-08 17:23:11.435] [[32mChannel[0m] sending token
+I [2014-12-08 17:23:14.532] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:14.533] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:14.534] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsd", "group_id"=>""}
+I [2014-12-08 17:23:14.534] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:14.542] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsd", "group_id"=>""}
+I [2014-12-08 17:23:14.548] [[32mDispatcher[0m] Event new_message Finished in 0.001253 seconds
+I [2014-12-08 17:23:15.341] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:15.342] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:15.342] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafsad", "group_id"=>""}
+I [2014-12-08 17:23:15.342] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:15.342] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafsad", "group_id"=>""}
+I [2014-12-08 17:23:15.343] [[32mDispatcher[0m] Event new_message Finished in 0.000822 seconds
+I [2014-12-08 17:23:16.177] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:16.177] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:16.177] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:23:16.177] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:16.177] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsafdsa", "group_id"=>""}
+I [2014-12-08 17:23:16.178] [[32mDispatcher[0m] Event new_message Finished in 0.000752 seconds
+I [2014-12-08 17:23:16.659] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:16.659] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:16.659] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:23:16.659] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:16.659] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"fdsaf", "group_id"=>""}
+I [2014-12-08 17:23:16.660] [[32mDispatcher[0m] Event new_message Finished in 0.000648 seconds
+I [2014-12-08 17:23:16.842] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:16.842] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:16.842] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:16.842] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:16.843] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:16.844] [[32mDispatcher[0m] Event new_message Finished in 0.001302 seconds
+I [2014-12-08 17:23:16.987] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:16.987] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:16.987] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:16.987] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:16.989] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:16.989] [[32mDispatcher[0m] Event new_message Finished in 0.001693 seconds
+I [2014-12-08 17:23:17.120] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:17.120] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:17.121] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.121] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:17.121] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.122] [[32mDispatcher[0m] Event new_message Finished in 0.001273 seconds
+I [2014-12-08 17:23:17.395] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:17.395] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:17.395] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.396] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:17.396] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.397] [[32mDispatcher[0m] Event new_message Finished in 0.001049 seconds
+I [2014-12-08 17:23:17.554] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:17.554] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:17.554] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.554] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:17.555] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.556] [[32mDispatcher[0m] Event new_message Finished in 0.001351 seconds
+I [2014-12-08 17:23:17.703] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:17.703] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:17.703] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.703] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:17.704] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.705] [[32mDispatcher[0m] Event new_message Finished in 0.001565 seconds
+I [2014-12-08 17:23:17.852] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:17.852] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:17.853] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.853] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:17.854] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:17.854] [[32mDispatcher[0m] Event new_message Finished in 0.001689 seconds
+I [2014-12-08 17:23:18.199] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:18.201] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:18.203] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.204] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:18.215] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.222] [[32mDispatcher[0m] Event new_message Finished in 0.001597 seconds
+I [2014-12-08 17:23:18.178] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:18.178] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:18.178] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.178] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:18.179] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.179] [[32mDispatcher[0m] Event new_message Finished in 0.000606 seconds
+I [2014-12-08 17:23:18.345] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:18.345] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:18.345] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.345] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:18.346] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.346] [[32mDispatcher[0m] Event new_message Finished in 0.000842 seconds
+I [2014-12-08 17:23:18.502] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:18.503] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:18.503] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.503] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:18.504] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.504] [[32mDispatcher[0m] Event new_message Finished in 0.00145 seconds
+I [2014-12-08 17:23:18.674] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:18.674] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:18.674] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.674] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:18.674] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.675] [[32mDispatcher[0m] Event new_message Finished in 0.000738 seconds
+I [2014-12-08 17:23:18.841] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:18.841] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:18.842] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.842] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:18.843] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:18.844] [[32mDispatcher[0m] Event new_message Finished in 0.001834 seconds
+I [2014-12-08 17:23:19.708] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.804] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.819] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.824] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.960] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.107] [[32mDispatcher[0m] Event new_message Finished in 0.002365 seconds
+I [2014-12-08 17:23:19.178] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.178] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.178] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.178] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.179] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.179] [[32mDispatcher[0m] Event new_message Finished in 0.000602 seconds
+I [2014-12-08 17:23:19.345] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.345] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.345] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.345] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.346] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.346] [[32mDispatcher[0m] Event new_message Finished in 0.000842999999999999 seconds
+I [2014-12-08 17:23:19.508] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.508] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.508] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.508] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.510] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.510] [[32mDispatcher[0m] Event new_message Finished in 0.002029 seconds
+I [2014-12-08 17:23:19.655] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.655] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.655] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.656] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.657] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.657] [[32mDispatcher[0m] Event new_message Finished in 0.001397 seconds
+I [2014-12-08 17:23:19.811] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.811] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.811] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.811] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.812] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.812] [[32mDispatcher[0m] Event new_message Finished in 0.000783 seconds
+I [2014-12-08 17:23:19.975] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:19.975] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:19.976] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.976] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:19.978] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:19.978] [[32mDispatcher[0m] Event new_message Finished in 0.002122 seconds
+I [2014-12-08 17:23:20.121] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:20.121] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:20.121] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.121] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:20.122] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.123] [[32mDispatcher[0m] Event new_message Finished in 0.001368 seconds
+I [2014-12-08 17:23:20.292] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:20.293] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:20.293] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.293] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:20.294] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.295] [[32mDispatcher[0m] Event new_message Finished in 0.001457 seconds
+I [2014-12-08 17:23:20.444] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:20.444] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:20.444] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.444] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:20.445] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.445] [[32mDispatcher[0m] Event new_message Finished in 0.000642 seconds
+I [2014-12-08 17:23:20.595] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:20.595] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:20.595] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.595] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:20.596] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.596] [[32mDispatcher[0m] Event new_message Finished in 0.000567 seconds
+I [2014-12-08 17:23:20.740] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:20.740] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:20.740] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.740] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:20.741] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.742] [[32mDispatcher[0m] Event new_message Finished in 0.001198 seconds
+I [2014-12-08 17:23:20.908] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:20.908] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:20.908] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.908] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:20.910] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:20.911] [[32mDispatcher[0m] Event new_message Finished in 0.002419 seconds
+I [2014-12-08 17:23:21.982] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:23:21.983] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:23:21.983] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:21.983] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:23:21.991] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:23:21.995] [[32mDispatcher[0m] Event new_message Finished in 0.00109 seconds
+I [2014-12-08 17:29:23.874] [[32mConnectionManager[0m] Connection opened: #<Connection::28017812d9c6083d297d>
+I [2014-12-08 17:29:23.886] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:29:23.886] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:29:23.886] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"28017812d9c6083d297d"}
+I [2014-12-08 17:29:23.886] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::28017812d9c6083d297d>
+I [2014-12-08 17:29:23.887] [[32mDispatcher[0m] Event client_connected Finished in 0.000364 seconds
+I [2014-12-08 17:29:23.899] [[32mChannel[0m] #<Connection::28017812d9c6083d297d> subscribed to channel 
+I [2014-12-08 17:29:23.899] [[32mChannel[0m] sending token
+I [2014-12-08 17:29:24.166] [[32mConnectionManager[0m] Connection opened: #<Connection::79649131df4ff2b49756>
+I [2014-12-08 17:29:24.174] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:29:24.175] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:29:24.175] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"79649131df4ff2b49756"}
+I [2014-12-08 17:29:24.175] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::79649131df4ff2b49756>
+I [2014-12-08 17:29:24.179] [[32mDispatcher[0m] Event client_connected Finished in 0.00033 seconds
+I [2014-12-08 17:29:24.182] [[32mChannel[0m] #<Connection::79649131df4ff2b49756> subscribed to channel 
+I [2014-12-08 17:29:24.182] [[32mChannel[0m] sending token
+I [2014-12-08 17:29:33.270] [[32mChannel[0m] #<Connection::79649131df4ff2b49756> unsubscribed from channel 
+I [2014-12-08 17:29:33.270] [[32mConnectionManager[0m] Connection closed: #<Connection::79649131df4ff2b49756>
+I [2014-12-08 17:29:33.270] [[32mChannel[0m] #<Connection::28017812d9c6083d297d> unsubscribed from channel 
+I [2014-12-08 17:29:33.270] [[32mConnectionManager[0m] Connection closed: #<Connection::28017812d9c6083d297d>
+I [2014-12-08 17:29:39.355] [[32mConnectionManager[0m] Connection opened: #<Connection::f7ba81360706cc1cb9f2>
+I [2014-12-08 17:29:39.385] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:29:39.385] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:29:39.385] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"f7ba81360706cc1cb9f2"}
+I [2014-12-08 17:29:39.385] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f7ba81360706cc1cb9f2>
+I [2014-12-08 17:29:39.386] [[32mDispatcher[0m] Event client_connected Finished in 0.000396 seconds
+I [2014-12-08 17:29:39.396] [[32mChannel[0m] #<Connection::f7ba81360706cc1cb9f2> subscribed to channel 
+I [2014-12-08 17:29:39.396] [[32mChannel[0m] sending token
+I [2014-12-08 17:29:39.512] [[32mConnectionManager[0m] Connection opened: #<Connection::4fb183f2388f9dc3c3bf>
+I [2014-12-08 17:29:39.513] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:29:39.513] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:29:39.513] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"4fb183f2388f9dc3c3bf"}
+I [2014-12-08 17:29:39.513] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4fb183f2388f9dc3c3bf>
+I [2014-12-08 17:29:39.513] [[32mDispatcher[0m] Event client_connected Finished in 0.000324 seconds
+I [2014-12-08 17:29:39.514] [[32mChannel[0m] #<Connection::4fb183f2388f9dc3c3bf> subscribed to channel 
+I [2014-12-08 17:29:39.514] [[32mChannel[0m] sending token
+I [2014-12-08 17:29:44.197] [[32mChannel[0m] #<Connection::f7ba81360706cc1cb9f2> unsubscribed from channel 
+I [2014-12-08 17:29:44.197] [[32mConnectionManager[0m] Connection closed: #<Connection::f7ba81360706cc1cb9f2>
+I [2014-12-08 17:29:44.198] [[32mChannel[0m] #<Connection::4fb183f2388f9dc3c3bf> unsubscribed from channel 
+I [2014-12-08 17:29:44.198] [[32mConnectionManager[0m] Connection closed: #<Connection::4fb183f2388f9dc3c3bf>
+I [2014-12-08 17:29:52.533] [[32mConnectionManager[0m] Connection opened: #<Connection::e27fa1a1009be9b50251>
+I [2014-12-08 17:29:52.553] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:29:52.553] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:29:52.553] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"e27fa1a1009be9b50251"}
+I [2014-12-08 17:29:52.553] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e27fa1a1009be9b50251>
+I [2014-12-08 17:29:52.554] [[32mDispatcher[0m] Event client_connected Finished in 0.000338 seconds
+I [2014-12-08 17:29:52.566] [[32mChannel[0m] #<Connection::e27fa1a1009be9b50251> subscribed to channel 
+I [2014-12-08 17:29:52.566] [[32mChannel[0m] sending token
+I [2014-12-08 17:29:52.673] [[32mConnectionManager[0m] Connection opened: #<Connection::97175b212efdd17a434d>
+I [2014-12-08 17:29:52.674] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:29:52.674] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:29:52.674] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"97175b212efdd17a434d"}
+I [2014-12-08 17:29:52.674] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::97175b212efdd17a434d>
+I [2014-12-08 17:29:52.674] [[32mDispatcher[0m] Event client_connected Finished in 0.000299 seconds
+I [2014-12-08 17:29:52.674] [[32mChannel[0m] #<Connection::97175b212efdd17a434d> subscribed to channel 
+I [2014-12-08 17:29:52.674] [[32mChannel[0m] sending token
+I [2014-12-08 17:29:54.561] [[32mChannel[0m] #<Connection::97175b212efdd17a434d> unsubscribed from channel 
+I [2014-12-08 17:29:54.561] [[32mConnectionManager[0m] Connection closed: #<Connection::97175b212efdd17a434d>
+I [2014-12-08 17:29:54.562] [[32mChannel[0m] #<Connection::e27fa1a1009be9b50251> unsubscribed from channel 
+I [2014-12-08 17:29:54.562] [[32mConnectionManager[0m] Connection closed: #<Connection::e27fa1a1009be9b50251>
+I [2014-12-08 17:31:00.835] [[32mConnectionManager[0m] Connection opened: #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:31:00.970] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:31:00.971] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:31:00.971] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"503a56c04421a806ded7"}
+I [2014-12-08 17:31:00.971] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:31:00.976] [[32mDispatcher[0m] Event client_connected Finished in 0.000389 seconds
+I [2014-12-08 17:31:00.115] [[32mChannel[0m] #<Connection::503a56c04421a806ded7> subscribed to channel 
+I [2014-12-08 17:31:00.115] [[32mChannel[0m] sending token
+I [2014-12-08 17:31:00.218] [[32mConnectionManager[0m] Connection opened: #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:31:00.219] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:31:00.219] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:31:00.219] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"b585b1d6b786d923ad6b"}
+I [2014-12-08 17:31:00.219] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:31:00.219] [[32mDispatcher[0m] Event client_connected Finished in 0.000418 seconds
+I [2014-12-08 17:31:00.220] [[32mChannel[0m] #<Connection::b585b1d6b786d923ad6b> subscribed to channel 
+I [2014-12-08 17:31:00.220] [[32mChannel[0m] sending token
+I [2014-12-08 17:31:57.950] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:57.951] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:57.951] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"ｓｆだ", "group_id"=>""}
+I [2014-12-08 17:31:57.951] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:31:57.957] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"ｓｆだ", "group_id"=>""}
+I [2014-12-08 17:31:57.964] [[32mDispatcher[0m] Event new_message Finished in 0.00105 seconds
+I [2014-12-08 17:31:57.984] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:57.985] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:57.985] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:57.985] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:31:57.991] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:57.998] [[32mDispatcher[0m] Event new_message Finished in 0.001176 seconds
+I [2014-12-08 17:31:58.886] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:58.886] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:58.886] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:58.886] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:31:58.887] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:58.887] [[32mDispatcher[0m] Event new_message Finished in 0.000818 seconds
+I [2014-12-08 17:31:58.888] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:58.888] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:58.888] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:58.888] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:31:58.888] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:58.889] [[32mDispatcher[0m] Event new_message Finished in 0.000705 seconds
+I [2014-12-08 17:31:59.501] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:59.501] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:59.501] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.501] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:31:59.503] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.504] [[32mDispatcher[0m] Event new_message Finished in 0.001899 seconds
+I [2014-12-08 17:31:59.505] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:59.506] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:59.506] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.506] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:31:59.507] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.507] [[32mDispatcher[0m] Event new_message Finished in 0.001264 seconds
+I [2014-12-08 17:31:59.924] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:59.924] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:59.924] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.924] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:31:59.924] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.925] [[32mDispatcher[0m] Event new_message Finished in 0.000802 seconds
+I [2014-12-08 17:31:59.925] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:31:59.926] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:31:59.926] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.926] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:31:59.926] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:31:59.926] [[32mDispatcher[0m] Event new_message Finished in 0.00066 seconds
+I [2014-12-08 17:32:00.152] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.152] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.152] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.152] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:00.153] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.153] [[32mDispatcher[0m] Event new_message Finished in 0.000855 seconds
+I [2014-12-08 17:32:00.154] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.154] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.154] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.154] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:00.155] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.155] [[32mDispatcher[0m] Event new_message Finished in 0.000715 seconds
+I [2014-12-08 17:32:00.337] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.337] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.337] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.337] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:00.338] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.339] [[32mDispatcher[0m] Event new_message Finished in 0.001283 seconds
+I [2014-12-08 17:32:00.340] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.340] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.340] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.340] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:00.340] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.341] [[32mDispatcher[0m] Event new_message Finished in 0.001012 seconds
+I [2014-12-08 17:32:00.553] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.553] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.553] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.553] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:00.553] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.554] [[32mDispatcher[0m] Event new_message Finished in 0.000818 seconds
+I [2014-12-08 17:32:00.554] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.554] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.554] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.554] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:00.555] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.555] [[32mDispatcher[0m] Event new_message Finished in 0.000871 seconds
+I [2014-12-08 17:32:00.845] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.845] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.845] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.845] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:00.846] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.846] [[32mDispatcher[0m] Event new_message Finished in 0.000821 seconds
+I [2014-12-08 17:32:00.847] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:00.847] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:00.847] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.847] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:00.847] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:00.848] [[32mDispatcher[0m] Event new_message Finished in 0.001361 seconds
+I [2014-12-08 17:32:01.121] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:01.121] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:01.121] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.121] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:01.121] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.122] [[32mDispatcher[0m] Event new_message Finished in 0.000855 seconds
+I [2014-12-08 17:32:01.123] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:01.123] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:01.123] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.123] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:01.123] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.124] [[32mDispatcher[0m] Event new_message Finished in 0.000822 seconds
+I [2014-12-08 17:32:01.673] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:01.673] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:01.673] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.673] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:01.674] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.675] [[32mDispatcher[0m] Event new_message Finished in 0.00133 seconds
+I [2014-12-08 17:32:01.677] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:01.677] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:01.677] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.677] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:01.678] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.680] [[32mDispatcher[0m] Event new_message Finished in 0.002502 seconds
+I [2014-12-08 17:32:01.864] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:01.864] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:01.864] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.864] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:01.865] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.866] [[32mDispatcher[0m] Event new_message Finished in 0.001848 seconds
+I [2014-12-08 17:32:01.868] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:32:01.868] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:32:01.868] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.868] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:01.868] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:32:01.869] [[32mDispatcher[0m] Event new_message Finished in 0.000681 seconds
+I [2014-12-08 17:32:19.474] [[32mChannel[0m] #<Connection::af5c3c70cd2c44325212> unsubscribed from channel 
+I [2014-12-08 17:32:19.475] [[32mConnectionManager[0m] Connection closed: #<Connection::af5c3c70cd2c44325212>
+I [2014-12-08 17:32:19.475] [[32mChannel[0m] #<Connection::503a56c04421a806ded7> unsubscribed from channel 
+I [2014-12-08 17:32:19.475] [[32mConnectionManager[0m] Connection closed: #<Connection::503a56c04421a806ded7>
+I [2014-12-08 17:32:19.476] [[32mChannel[0m] #<Connection::b585b1d6b786d923ad6b> unsubscribed from channel 
+I [2014-12-08 17:32:19.476] [[32mConnectionManager[0m] Connection closed: #<Connection::b585b1d6b786d923ad6b>
+I [2014-12-08 17:32:29.939] [[32mConnectionManager[0m] Connection opened: #<Connection::f3f3422033c64ab7a39d>
+I [2014-12-08 17:32:29.941] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:32:29.941] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:32:29.941] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"f3f3422033c64ab7a39d"}
+I [2014-12-08 17:32:29.941] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f3f3422033c64ab7a39d>
+I [2014-12-08 17:32:29.941] [[32mDispatcher[0m] Event client_connected Finished in 0.00055 seconds
+I [2014-12-08 17:32:29.942] [[32mChannel[0m] #<Connection::f3f3422033c64ab7a39d> subscribed to channel 
+I [2014-12-08 17:32:29.942] [[32mChannel[0m] sending token
+I [2014-12-08 17:32:37.329] [[32mConnectionManager[0m] Connection opened: #<Connection::66c46ce418b98d0bce87>
+I [2014-12-08 17:32:37.330] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:32:37.330] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:32:37.330] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"66c46ce418b98d0bce87"}
+I [2014-12-08 17:32:37.330] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::66c46ce418b98d0bce87>
+I [2014-12-08 17:32:37.331] [[32mDispatcher[0m] Event client_connected Finished in 0.000628 seconds
+I [2014-12-08 17:32:37.390] [[32mChannel[0m] #<Connection::66c46ce418b98d0bce87> subscribed to channel 
+I [2014-12-08 17:32:37.390] [[32mChannel[0m] sending token
+I [2014-12-08 17:33:57.565] [[32mChannel[0m] #<Connection::66c46ce418b98d0bce87> unsubscribed from channel 
+I [2014-12-08 17:33:57.565] [[32mConnectionManager[0m] Connection closed: #<Connection::66c46ce418b98d0bce87>
+I [2014-12-08 17:34:00.673] [[32mConnectionManager[0m] Connection opened: #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:00.674] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:34:00.674] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:34:00.674] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"32c5510c88f70f826338"}
+I [2014-12-08 17:34:00.674] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:00.674] [[32mDispatcher[0m] Event client_connected Finished in 0.000381 seconds
+I [2014-12-08 17:34:00.680] [[32mChannel[0m] #<Connection::32c5510c88f70f826338> subscribed to channel 
+I [2014-12-08 17:34:00.681] [[32mChannel[0m] sending token
+I [2014-12-08 17:34:11.617] [[32mChannel[0m] #<Connection::f3f3422033c64ab7a39d> unsubscribed from channel 
+I [2014-12-08 17:34:11.618] [[32mConnectionManager[0m] Connection closed: #<Connection::f3f3422033c64ab7a39d>
+I [2014-12-08 17:34:13.276] [[32mConnectionManager[0m] Connection opened: #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:13.278] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:34:13.279] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:34:13.279] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"af218a8c81aaba25bedb"}
+I [2014-12-08 17:34:13.279] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:13.280] [[32mDispatcher[0m] Event client_connected Finished in 0.00136 seconds
+I [2014-12-08 17:34:13.281] [[32mChannel[0m] #<Connection::af218a8c81aaba25bedb> subscribed to channel 
+I [2014-12-08 17:34:13.281] [[32mChannel[0m] sending token
+I [2014-12-08 17:34:15.647] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:15.647] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:15.647] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:15.647] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:15.648] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:15.648] [[32mDispatcher[0m] Event new_message Finished in 0.000783999999999999 seconds
+I [2014-12-08 17:34:16.892] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:16.893] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:16.894] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.894] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:16.900] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.905] [[32mDispatcher[0m] Event new_message Finished in 0.001005 seconds
+I [2014-12-08 17:34:16.261] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:16.261] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:16.262] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.262] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:16.262] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.263] [[32mDispatcher[0m] Event new_message Finished in 0.001001 seconds
+I [2014-12-08 17:34:16.440] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:16.440] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:16.440] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.440] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:16.440] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.441] [[32mDispatcher[0m] Event new_message Finished in 0.001089 seconds
+I [2014-12-08 17:34:16.608] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:16.608] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:16.608] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.608] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:16.609] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.609] [[32mDispatcher[0m] Event new_message Finished in 0.001056 seconds
+I [2014-12-08 17:34:16.823] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:16.823] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:16.823] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.823] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:16.823] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:16.824] [[32mDispatcher[0m] Event new_message Finished in 0.00099 seconds
+I [2014-12-08 17:34:17.166] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:17.166] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:17.166] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.166] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:17.167] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.167] [[32mDispatcher[0m] Event new_message Finished in 0.000794 seconds
+I [2014-12-08 17:34:17.387] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:17.387] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:17.387] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.387] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:17.387] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.388] [[32mDispatcher[0m] Event new_message Finished in 0.00108 seconds
+I [2014-12-08 17:34:17.650] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:17.651] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:17.651] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.651] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:17.651] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.652] [[32mDispatcher[0m] Event new_message Finished in 0.00094 seconds
+I [2014-12-08 17:34:17.824] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:17.824] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:17.824] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.824] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:17.825] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.825] [[32mDispatcher[0m] Event new_message Finished in 0.000703 seconds
+I [2014-12-08 17:34:17.984] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:17.984] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:17.984] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.984] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:17.985] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:17.985] [[32mDispatcher[0m] Event new_message Finished in 0.000775 seconds
+I [2014-12-08 17:34:18.160] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:18.160] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:18.160] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.160] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:18.161] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.161] [[32mDispatcher[0m] Event new_message Finished in 0.001276 seconds
+I [2014-12-08 17:34:18.344] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:18.344] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:18.344] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.344] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:18.345] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.345] [[32mDispatcher[0m] Event new_message Finished in 0.001008 seconds
+I [2014-12-08 17:34:18.537] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:18.537] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:18.537] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.537] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:18.537] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.538] [[32mDispatcher[0m] Event new_message Finished in 0.000804 seconds
+I [2014-12-08 17:34:18.696] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:18.696] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:18.696] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.696] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:18.696] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.697] [[32mDispatcher[0m] Event new_message Finished in 0.000769 seconds
+I [2014-12-08 17:34:18.890] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:18.890] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:18.890] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.890] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:18.891] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:18.891] [[32mDispatcher[0m] Event new_message Finished in 0.000721 seconds
+I [2014-12-08 17:34:19.642] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:19.643] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:19.643] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:19.644] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:19.650] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:19.656] [[32mDispatcher[0m] Event new_message Finished in 0.001099 seconds
+I [2014-12-08 17:34:19.425] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:19.425] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:19.425] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:19.425] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:19.425] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:19.426] [[32mDispatcher[0m] Event new_message Finished in 0.001021 seconds
+I [2014-12-08 17:34:19.786] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:19.786] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:19.786] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:19.786] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:19.786] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:19.787] [[32mDispatcher[0m] Event new_message Finished in 0.001523 seconds
+I [2014-12-08 17:34:20.199] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:20.200] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:20.201] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.201] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:20.212] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.220] [[32mDispatcher[0m] Event new_message Finished in 0.001688 seconds
+I [2014-12-08 17:34:20.202] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:20.202] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:20.202] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.202] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:20.202] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.202] [[32mDispatcher[0m] Event new_message Finished in 0.000708 seconds
+I [2014-12-08 17:34:20.447] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:20.447] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:20.447] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.447] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:20.448] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.448] [[32mDispatcher[0m] Event new_message Finished in 0.000919 seconds
+I [2014-12-08 17:34:20.626] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:20.626] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:20.626] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.626] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:20.626] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.627] [[32mDispatcher[0m] Event new_message Finished in 0.000714 seconds
+I [2014-12-08 17:34:20.850] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:20.850] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:20.850] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.850] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:20.850] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:20.851] [[32mDispatcher[0m] Event new_message Finished in 0.00108 seconds
+I [2014-12-08 17:34:21.591] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:21.592] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:21.592] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.593] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:21.599] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.604] [[32mDispatcher[0m] Event new_message Finished in 0.001068 seconds
+I [2014-12-08 17:34:21.260] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:21.260] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:21.260] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.260] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:21.261] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.262] [[32mDispatcher[0m] Event new_message Finished in 0.001031 seconds
+I [2014-12-08 17:34:21.453] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:21.453] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:21.453] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.453] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:21.453] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.454] [[32mDispatcher[0m] Event new_message Finished in 0.001061 seconds
+I [2014-12-08 17:34:21.660] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:21.661] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:21.661] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.661] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:21.661] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.661] [[32mDispatcher[0m] Event new_message Finished in 0.000842999999999999 seconds
+I [2014-12-08 17:34:21.877] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:21.877] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:21.877] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.877] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:21.878] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:21.878] [[32mDispatcher[0m] Event new_message Finished in 0.001078 seconds
+I [2014-12-08 17:34:27.559] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:27.559] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:27.559] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:27.559] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:27.561] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:27.561] [[32mDispatcher[0m] Event new_message Finished in 0.002008 seconds
+I [2014-12-08 17:34:28.274] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:28.274] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:28.274] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:28.274] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:28.274] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:28.275] [[32mDispatcher[0m] Event new_message Finished in 0.000766 seconds
+I [2014-12-08 17:34:28.965] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:28.965] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:28.965] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:28.966] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:28.966] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:28.967] [[32mDispatcher[0m] Event new_message Finished in 0.000953 seconds
+I [2014-12-08 17:34:29.464] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:29.464] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:29.464] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:29.464] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:29.465] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:29.466] [[32mDispatcher[0m] Event new_message Finished in 0.001443 seconds
+I [2014-12-08 17:34:29.834] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:29.835] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:29.835] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:29.836] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:29.837] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:29.838] [[32mDispatcher[0m] Event new_message Finished in 0.001861 seconds
+I [2014-12-08 17:34:30.189] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:30.189] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:30.189] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:30.189] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:30.190] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:30.190] [[32mDispatcher[0m] Event new_message Finished in 0.000672999999999999 seconds
+I [2014-12-08 17:34:30.491] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:30.491] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:30.491] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:30.491] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:30.491] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:30.491] [[32mDispatcher[0m] Event new_message Finished in 0.000797 seconds
+I [2014-12-08 17:34:42.855] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:42.856] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:42.856] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:42.857] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:42.861] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:42.865] [[32mDispatcher[0m] Event new_message Finished in 0.000738 seconds
+I [2014-12-08 17:34:44.808] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:44.808] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:44.808] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:44.808] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:44.809] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:44.810] [[32mDispatcher[0m] Event new_message Finished in 0.000976 seconds
+I [2014-12-08 17:34:45.311] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:45.311] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:45.311] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:45.311] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:45.311] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:45.312] [[32mDispatcher[0m] Event new_message Finished in 0.000793 seconds
+I [2014-12-08 17:34:45.771] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:45.771] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:45.771] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:45.771] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:45.772] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:45.773] [[32mDispatcher[0m] Event new_message Finished in 0.001044 seconds
+I [2014-12-08 17:34:46.242] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:46.242] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:46.243] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:46.243] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:34:46.244] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:46.244] [[32mDispatcher[0m] Event new_message Finished in 0.001309 seconds
+I [2014-12-08 17:34:48.156] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:48.156] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:48.156] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:48.156] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:48.157] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:48.159] [[32mDispatcher[0m] Event new_message Finished in 0.002012 seconds
+I [2014-12-08 17:34:48.387] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:34:48.388] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:34:48.388] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:48.388] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:34:48.389] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:34:48.390] [[32mDispatcher[0m] Event new_message Finished in 0.002144 seconds
+I [2014-12-08 17:36:40.141] [[32mChannel[0m] #<Connection::32c5510c88f70f826338> unsubscribed from channel 
+I [2014-12-08 17:36:40.142] [[32mConnectionManager[0m] Connection closed: #<Connection::32c5510c88f70f826338>
+I [2014-12-08 17:36:40.147] [[32mChannel[0m] #<Connection::af218a8c81aaba25bedb> unsubscribed from channel 
+I [2014-12-08 17:36:40.147] [[32mConnectionManager[0m] Connection closed: #<Connection::af218a8c81aaba25bedb>
+I [2014-12-08 17:36:54.943] [[32mConnectionManager[0m] Connection opened: #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:36:54.958] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:36:54.958] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:36:54.958] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"62c522985d5e48626781"}
+I [2014-12-08 17:36:54.958] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:36:54.959] [[32mDispatcher[0m] Event client_connected Finished in 0.00044 seconds
+I [2014-12-08 17:36:54.970] [[32mChannel[0m] #<Connection::62c522985d5e48626781> subscribed to channel 
+I [2014-12-08 17:36:54.970] [[32mChannel[0m] sending token
+I [2014-12-08 17:36:55.234] [[32mConnectionManager[0m] Connection opened: #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:36:55.235] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-08 17:36:55.235] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-08 17:36:55.235] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"cc899ff5ebb4decedaf0"}
+I [2014-12-08 17:36:55.235] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:36:55.237] [[32mDispatcher[0m] Event client_connected Finished in 0.001579 seconds
+I [2014-12-08 17:36:55.244] [[32mChannel[0m] #<Connection::cc899ff5ebb4decedaf0> subscribed to channel 
+I [2014-12-08 17:36:55.244] [[32mChannel[0m] sending token
+I [2014-12-08 17:36:59.526] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:36:59.526] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:36:59.526] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:36:59.526] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:36:59.526] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:36:59.527] [[32mDispatcher[0m] Event new_message Finished in 0.000687 seconds
+I [2014-12-08 17:36:59.795] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:36:59.795] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:36:59.795] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:36:59.795] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:36:59.796] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:36:59.796] [[32mDispatcher[0m] Event new_message Finished in 0.001592 seconds
+I [2014-12-08 17:37:00.367] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:00.368] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:00.369] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.369] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:00.377] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.384] [[32mDispatcher[0m] Event new_message Finished in 0.001322 seconds
+I [2014-12-08 17:37:00.211] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:00.211] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:00.211] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.211] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:00.211] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.212] [[32mDispatcher[0m] Event new_message Finished in 0.00066 seconds
+I [2014-12-08 17:37:00.379] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:00.379] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:00.379] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.379] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:00.380] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.381] [[32mDispatcher[0m] Event new_message Finished in 0.001259 seconds
+I [2014-12-08 17:37:00.532] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:00.532] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:00.533] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.555] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:00.558] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.561] [[32mDispatcher[0m] Event new_message Finished in 0.005096 seconds
+I [2014-12-08 17:37:00.677] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:00.677] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:00.677] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.677] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:00.677] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.678] [[32mDispatcher[0m] Event new_message Finished in 0.001022 seconds
+I [2014-12-08 17:37:00.811] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:00.811] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:00.811] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.811] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:00.811] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:00.812] [[32mDispatcher[0m] Event new_message Finished in 0.000694 seconds
+I [2014-12-08 17:37:01.964] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.965] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.965] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.966] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.974] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.980] [[32mDispatcher[0m] Event new_message Finished in 0.001294 seconds
+I [2014-12-08 17:37:01.195] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.195] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.195] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.195] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.195] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.196] [[32mDispatcher[0m] Event new_message Finished in 0.000721 seconds
+I [2014-12-08 17:37:01.278] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.278] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.278] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.278] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.279] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.281] [[32mDispatcher[0m] Event new_message Finished in 0.002964 seconds
+I [2014-12-08 17:37:01.362] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.362] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.362] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.363] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.363] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.365] [[32mDispatcher[0m] Event new_message Finished in 0.001276 seconds
+I [2014-12-08 17:37:01.510] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.510] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.510] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.510] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.510] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.511] [[32mDispatcher[0m] Event new_message Finished in 0.0007 seconds
+I [2014-12-08 17:37:01.589] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.589] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.589] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.589] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.590] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.591] [[32mDispatcher[0m] Event new_message Finished in 0.001589 seconds
+I [2014-12-08 17:37:01.663] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.663] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.663] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.663] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.663] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.664] [[32mDispatcher[0m] Event new_message Finished in 0.000797 seconds
+I [2014-12-08 17:37:01.759] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.759] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.759] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.759] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.759] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.760] [[32mDispatcher[0m] Event new_message Finished in 0.000635 seconds
+I [2014-12-08 17:37:01.844] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:01.844] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:01.844] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.844] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:01.846] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:01.846] [[32mDispatcher[0m] Event new_message Finished in 0.001432 seconds
+I [2014-12-08 17:37:02.695] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:02.695] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:02.695] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:02.696] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:02.699] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:02.703] [[32mDispatcher[0m] Event new_message Finished in 0.000704 seconds
+I [2014-12-08 17:37:02.163] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:02.163] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:02.164] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:02.164] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:02.164] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:02.165] [[32mDispatcher[0m] Event new_message Finished in 0.001091 seconds
+I [2014-12-08 17:37:02.581] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:02.581] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:02.581] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:02.581] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:02.582] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:02.582] [[32mDispatcher[0m] Event new_message Finished in 0.000924 seconds
+I [2014-12-08 17:37:03.121] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:03.122] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:03.122] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.122] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:03.123] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.124] [[32mDispatcher[0m] Event new_message Finished in 0.002086 seconds
+I [2014-12-08 17:37:03.309] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:03.309] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:03.309] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.309] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:03.310] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.311] [[32mDispatcher[0m] Event new_message Finished in 0.001022 seconds
+I [2014-12-08 17:37:03.422] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:03.422] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:03.422] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.422] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:03.423] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.424] [[32mDispatcher[0m] Event new_message Finished in 0.001342 seconds
+I [2014-12-08 17:37:03.550] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:03.550] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:03.550] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.550] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:03.551] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.551] [[32mDispatcher[0m] Event new_message Finished in 0.000576 seconds
+I [2014-12-08 17:37:03.628] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:03.628] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:03.628] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.628] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:03.629] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.629] [[32mDispatcher[0m] Event new_message Finished in 0.000845 seconds
+I [2014-12-08 17:37:03.827] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:03.827] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:03.827] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.827] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::62c522985d5e48626781>
+I [2014-12-08 17:37:03.828] [[32mChannel[0m] [] {"name"=>"Sano", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:03.828] [[32mDispatcher[0m] Event new_message Finished in 0.000934 seconds
+I [2014-12-08 17:37:08.276] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:08.277] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:08.278] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.278] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:08.284] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.289] [[32mDispatcher[0m] Event new_message Finished in 0.001011 seconds
+I [2014-12-08 17:37:08.280] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:08.280] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:08.280] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.280] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:08.281] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.281] [[32mDispatcher[0m] Event new_message Finished in 0.000662 seconds
+I [2014-12-08 17:37:08.448] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:08.448] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:08.448] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.448] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:08.449] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.449] [[32mDispatcher[0m] Event new_message Finished in 0.00095 seconds
+I [2014-12-08 17:37:08.723] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:08.724] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:08.724] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.724] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:08.725] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.726] [[32mDispatcher[0m] Event new_message Finished in 0.002108 seconds
+I [2014-12-08 17:37:08.864] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:08.864] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:08.864] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.864] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:08.865] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:08.865] [[32mDispatcher[0m] Event new_message Finished in 0.001131 seconds
+I [2014-12-08 17:37:09.161] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:09.161] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:09.161] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.161] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:09.161] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.162] [[32mDispatcher[0m] Event new_message Finished in 0.000674 seconds
+I [2014-12-08 17:37:09.296] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:09.296] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:09.296] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.296] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:09.297] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.297] [[32mDispatcher[0m] Event new_message Finished in 0.000925 seconds
+I [2014-12-08 17:37:09.586] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:09.586] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:09.586] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.586] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:09.586] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.587] [[32mDispatcher[0m] Event new_message Finished in 0.000659 seconds
+I [2014-12-08 17:37:09.931] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:09.931] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:09.931] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.932] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:09.932] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:09.932] [[32mDispatcher[0m] Event new_message Finished in 0.000886 seconds
+I [2014-12-08 17:37:10.832] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:10.832] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:10.832] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.833] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:10.837] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.841] [[32mDispatcher[0m] Event new_message Finished in 0.000751 seconds
+I [2014-12-08 17:37:10.212] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:10.212] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:10.212] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.212] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:10.212] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.213] [[32mDispatcher[0m] Event new_message Finished in 0.001046 seconds
+I [2014-12-08 17:37:10.374] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:10.374] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:10.374] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.374] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:10.376] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.377] [[32mDispatcher[0m] Event new_message Finished in 0.001953 seconds
+I [2014-12-08 17:37:10.599] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-08 17:37:10.599] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-08 17:37:10.599] [[32mDispatcher[0m] [36mData:[0m {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.599] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-08 17:37:10.600] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"", "group_id"=>""}
+I [2014-12-08 17:37:10.600] [[32mDispatcher[0m] Event new_message Finished in 0.000993 seconds
+I [2014-12-08 17:37:17.643] [[32mChannel[0m] #<Connection::cc899ff5ebb4decedaf0> unsubscribed from channel 
+I [2014-12-08 17:37:17.649] [[32mConnectionManager[0m] Connection closed: #<Connection::cc899ff5ebb4decedaf0>

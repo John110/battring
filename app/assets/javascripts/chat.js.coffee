@@ -23,11 +23,14 @@ class @ChatClass
     group_id = $('#group_id').text()
     @dispatcher.trigger 'new_message', { name: user_name , body: msg_body , group_id: group_id}
     $('#msgbody').val('')
+    document.chatform.chattext.focus()
+    event.scrollTop = event.scrollHeight
 
   receiveMessage: (message) =>
     console.log message
     # 受け取ったデータをappend
     $('#chat').append "#{message.name}  「#{message.body}」<br/>"
+    message.scrollTop = message.scrollHeight
 
 $ ->
   window.ChatClass = new ChatClass($('#chat').data('uri'), true)

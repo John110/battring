@@ -3,8 +3,10 @@
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "chat.js.coffee"%>
 </head>
-<body>
+<body onload="document.chatform.chattext.focus()">
 
+<div>
+<ul class="nav nav-list well" style="overflow-y: auto;height: 400px">
 <div>ようこそ、<%= current_player.username %>さん</div>
 
 <!-- jsに食わせたい情報などなど -->
@@ -14,11 +16,13 @@
 <div id="timeline" style="margin:20px;">
   <div id="chat" data-uri="<%= request.host %>:3000/websocket"></div>
 </div>
+</ul>
 
 <div>
-  <form class="form-horizontal">
-    <input type="text" class="form-control" id="msgbody" />
+  <form class="form-inline" name="chatform">
+    <input type="text" class="form-control" id="msgbody" name="chattext" size="40" />
     <input type="button" class="btn btn-primary" id="send" value="送信"/>
   </form>
+</div>
 </div>
 </body>
