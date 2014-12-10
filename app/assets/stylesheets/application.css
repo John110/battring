@@ -33,4 +33,26 @@ a { text-decoration: none; }
   overflow-y: auto;
 }
 
+.sample {
+  background-image:url("/../../assets/back.png");
+  background-size:cover;
+}
+
+.sign_in {
+  margin-left: 150px;
+}
+
+.logo {
+  background: #000000;
+}
+
+
+
+
+
+
+
+
+
+
 body { background: #eee; }

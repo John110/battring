@@ -1,2 +1,23 @@
-<%= link_to "サインイン", new_player_registration_path %> |
-<%= link_to "ログイン", new_player_session_path %>
+<html>
+<head>
+  <title>バトリング</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class = "logo">
+<center>
+  <%= image_tag '/../../assets/logo2.gif', :width => '758', :height => '254' %><br>
+</center>
+</div>
+
+<div class = "sample">
+  <div class = "sign_in">
+    <%= link_to image_tag('/../../assets/signin2.png', :width => '470', :height => '200'), new_player_registration_path %>
+    <%= link_to image_tag('/../../assets/login2.png', :width => '470', :height => '200'), new_player_session_path %>
+  </div>
+</div>
+</body>
+</html>
