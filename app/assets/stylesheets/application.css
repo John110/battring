@@ -33,7 +33,7 @@ a { text-decoration: none; }
   overflow-y: auto;
 }
 
-.sample {
+.back {
   background-image:url("/../../assets/back.png");
   background-size:cover;
 }
@@ -46,9 +46,34 @@ a { text-decoration: none; }
   background: #000000;
 }
 
+.advertize {
+  margin-top: 150px;
+  margin-left: 150px;
+}
 
+.home-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  background: #000;
+  overflow-x: auto;
+}
 
+.home-wrap {
+  top: 0;
+  float: top;
+  height: 15%;
+}
 
+.explain {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.nav-login {
+  margin-right: 1000px;
+}
 
 
 
