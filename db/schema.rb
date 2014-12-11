@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141203041502) do
+ActiveRecord::Schema.define(version: 20141203051724) do
+
+  create_table "cards", force: true do |t|
+    t.integer  "matching_id"
+    t.string   "player_a"
+    t.string   "player_b"
+    t.string   "result"
+    t.string   "next"
+    t.string   "book"
+    t.integer  "first_battle_time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "cards", ["matching_id"], name: "index_cards_on_matching_id", using: :btree
 
   create_table "favorites", force: true do |t|
     t.string   "title"
@@ -93,13 +107,18 @@ ActiveRecord::Schema.define(version: 20141203041502) do
 
   create_table "tournaments", force: true do |t|
     t.integer  "matching_id"
-    t.datetime "start"
     t.string   "participants"
+    t.datetime "start"
     t.string   "result"
     t.string   "cards"
+    t.boolean  "is_second_battle"
+    t.integer  "card_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "tournaments", ["card_id"], name: "index_tournaments_on_card_id", using: :btree
+  add_index "tournaments", ["matching_id"], name: "index_tournaments_on_matching_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "name"

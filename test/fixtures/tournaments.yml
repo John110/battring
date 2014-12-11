@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  matching: 
+  matching_id: 
   result: MyString
   cards: MyString
 
 two:
-  matching: 
+  matching_id: 
   result: MyString
   cards: MyString
