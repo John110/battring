@@ -7,7 +7,7 @@
  
 
 <% @project.tasks.each.with_index do |task, i| %>
-	<%= i+1 %>. &nbsp; <%= task.contributor %>
+	<%= i+1 %>. &nbsp; <%= link_to "#{task.contributor}", user_path(task.contributor) %> &nbsp; <%= task.time %>
 	<%= simple_format(task.title) %><br><br>
 <% end %>	
 
@@ -18,6 +18,8 @@
 </div>
 <%= f.hidden_field :user_id, value: params[:user_id] %>
 <%= f.hidden_field :contributor, value: current_player.username %>
+<% time = Time.now %>
+<%= f.hidden_field :time, value: time.strftime('%Y年%m月%d日 %H:%M:%S') %>
 <%= f.submit '送信' %>
 <% end %>
 </div>

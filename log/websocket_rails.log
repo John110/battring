@@ -1921,3 +1921,171 @@ I [2014-12-08 17:37:10.600] [[32mChannel[0m] [] {"name"=>"Uramon", "body"=>"",
 I [2014-12-08 17:37:10.600] [[32mDispatcher[0m] Event new_message Finished in 0.000993 seconds
 I [2014-12-08 17:37:17.643] [[32mChannel[0m] #<Connection::cc899ff5ebb4decedaf0> unsubscribed from channel 
 I [2014-12-08 17:37:17.649] [[32mConnectionManager[0m] Connection closed: #<Connection::cc899ff5ebb4decedaf0>
+I [2014-12-11 20:23:36.232] [[32mConnectionManager[0m] Connection opened: #<Connection::a0c906a1ac9b5e842164>
+I [2014-12-11 20:23:36.260] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-11 20:23:36.261] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-11 20:23:36.261] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"a0c906a1ac9b5e842164"}
+I [2014-12-11 20:23:36.261] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a0c906a1ac9b5e842164>
+I [2014-12-11 20:23:36.300] [[32mDispatcher[0m] Event client_connected Finished in 0.00096 seconds
+I [2014-12-11 20:23:36.302] [[32mChannel[0m] #<Connection::a0c906a1ac9b5e842164> subscribed to channel 
+I [2014-12-11 20:23:36.302] [[32mChannel[0m] sending token
+I [2014-12-11 20:23:45.208] [[32mChannel[0m] #<Connection::a0c906a1ac9b5e842164> unsubscribed from channel 
+I [2014-12-11 20:23:45.208] [[32mConnectionManager[0m] Connection closed: #<Connection::a0c906a1ac9b5e842164>
+I [2014-12-11 20:23:45.663] [[32mConnectionManager[0m] Connection opened: #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:23:45.664] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-11 20:23:45.664] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-11 20:23:45.664] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"fbb5356833fba5103c8a"}
+I [2014-12-11 20:23:45.664] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:23:45.693] [[32mDispatcher[0m] Event client_connected Finished in 0.000457 seconds
+I [2014-12-11 20:23:45.693] [[32mChannel[0m] #<Connection::fbb5356833fba5103c8a> subscribed to channel 
+I [2014-12-11 20:23:45.693] [[32mChannel[0m] sending token
+I [2014-12-11 20:24:13.696] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:13.696] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:13.696] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"aaa", "group_id"=>""}
+I [2014-12-11 20:24:13.696] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:13.696] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"aaa", "group_id"=>""}
+I [2014-12-11 20:24:13.697] [[32mDispatcher[0m] Event new_message Finished in 0.000724999999999999 seconds
+I [2014-12-11 20:24:17.300] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:17.300] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:17.300] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"bbb", "group_id"=>""}
+I [2014-12-11 20:24:17.300] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:17.301] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"bbb", "group_id"=>""}
+I [2014-12-11 20:24:17.301] [[32mDispatcher[0m] Event new_message Finished in 0.000802 seconds
+I [2014-12-11 20:24:36.940] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:36.941] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:36.941] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"aaa", "group_id"=>""}
+I [2014-12-11 20:24:36.942] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:36.948] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"aaa", "group_id"=>""}
+I [2014-12-11 20:24:36.953] [[32mDispatcher[0m] Event new_message Finished in 0.000978 seconds
+I [2014-12-11 20:24:37.723] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:37.723] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:37.723] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"aaa", "group_id"=>""}
+I [2014-12-11 20:24:37.723] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:37.723] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"aaa", "group_id"=>""}
+I [2014-12-11 20:24:37.724] [[32mDispatcher[0m] Event new_message Finished in 0.000691 seconds
+I [2014-12-11 20:24:38.297] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:38.298] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:38.298] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.298] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:38.303] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.306] [[32mDispatcher[0m] Event new_message Finished in 0.00072 seconds
+I [2014-12-11 20:24:38.235] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:38.235] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:38.235] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.235] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:38.235] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.235] [[32mDispatcher[0m] Event new_message Finished in 0.000697 seconds
+I [2014-12-11 20:24:38.435] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:38.435] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:38.435] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.435] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:38.436] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.436] [[32mDispatcher[0m] Event new_message Finished in 0.001251 seconds
+I [2014-12-11 20:24:38.619] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:38.619] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:38.619] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.619] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:38.620] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.620] [[32mDispatcher[0m] Event new_message Finished in 0.001027 seconds
+I [2014-12-11 20:24:38.804] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:38.804] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:38.804] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.804] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:38.804] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.805] [[32mDispatcher[0m] Event new_message Finished in 0.000842 seconds
+I [2014-12-11 20:24:38.954] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:38.954] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:38.954] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.954] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:38.955] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:38.955] [[32mDispatcher[0m] Event new_message Finished in 0.000965 seconds
+I [2014-12-11 20:24:39.703] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:39.704] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:39.705] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"", "group_id"=>""}
+I [2014-12-11 20:24:39.705] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:39.710] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"", "group_id"=>""}
+I [2014-12-11 20:24:39.713] [[32mDispatcher[0m] Event new_message Finished in 0.000765 seconds
+I [2014-12-11 20:24:39.240] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:39.241] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:39.241] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.241] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:39.241] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.242] [[32mDispatcher[0m] Event new_message Finished in 0.00104 seconds
+I [2014-12-11 20:24:39.389] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:39.389] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:39.389] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.389] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:39.390] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.390] [[32mDispatcher[0m] Event new_message Finished in 0.00093 seconds
+I [2014-12-11 20:24:39.537] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:39.538] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:39.538] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.538] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:39.538] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.538] [[32mDispatcher[0m] Event new_message Finished in 0.000718 seconds
+I [2014-12-11 20:24:39.726] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:39.726] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:39.727] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"", "group_id"=>""}
+I [2014-12-11 20:24:39.727] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:39.727] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"", "group_id"=>""}
+I [2014-12-11 20:24:39.727] [[32mDispatcher[0m] Event new_message Finished in 0.000713 seconds
+I [2014-12-11 20:24:39.927] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:39.927] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:39.927] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.927] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:39.928] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:39.928] [[32mDispatcher[0m] Event new_message Finished in 0.000717 seconds
+I [2014-12-11 20:24:40.107] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:40.107] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:40.107] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.107] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:40.107] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.108] [[32mDispatcher[0m] Event new_message Finished in 0.001249 seconds
+I [2014-12-11 20:24:40.284] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:40.285] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:40.285] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.285] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:40.285] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.286] [[32mDispatcher[0m] Event new_message Finished in 0.000978 seconds
+I [2014-12-11 20:24:40.481] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:40.481] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:40.481] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.481] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:40.482] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.482] [[32mDispatcher[0m] Event new_message Finished in 0.000709 seconds
+I [2014-12-11 20:24:40.672] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:40.672] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:40.672] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.672] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:40.673] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:40.674] [[32mDispatcher[0m] Event new_message Finished in 0.00106 seconds
+I [2014-12-11 20:24:41.511] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:41.512] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:41.513] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:41.513] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:41.519] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:41.526] [[32mDispatcher[0m] Event new_message Finished in 0.001198 seconds
+I [2014-12-11 20:24:41.741] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:41.741] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:41.741] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:41.742] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:41.742] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"a", "group_id"=>""}
+I [2014-12-11 20:24:41.743] [[32mDispatcher[0m] Event new_message Finished in 0.001019 seconds
+I [2014-12-11 20:24:45.815] [[32mDispatcher[0m] Started Event: new_message
+I [2014-12-11 20:24:45.815] [[32mDispatcher[0m] [36mName:[0m new_message
+I [2014-12-11 20:24:45.816] [[32mDispatcher[0m] [36mData:[0m {"name"=>"uqa", "body"=>"aa", "group_id"=>""}
+I [2014-12-11 20:24:45.816] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:45.816] [[32mChannel[0m] [] {"name"=>"uqa", "body"=>"aa", "group_id"=>""}
+I [2014-12-11 20:24:45.817] [[32mDispatcher[0m] Event new_message Finished in 0.001008 seconds
+I [2014-12-11 20:24:48.240] [[32mChannel[0m] #<Connection::fbb5356833fba5103c8a> unsubscribed from channel 
+I [2014-12-11 20:24:48.242] [[32mConnectionManager[0m] Connection closed: #<Connection::fbb5356833fba5103c8a>
+I [2014-12-11 20:24:48.483] [[32mConnectionManager[0m] Connection opened: #<Connection::f32e3b979fd17ea9335f>
+I [2014-12-11 20:24:48.484] [[32mDispatcher[0m] Started Event: client_connected
+I [2014-12-11 20:24:48.484] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2014-12-11 20:24:48.484] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"f32e3b979fd17ea9335f"}
+I [2014-12-11 20:24:48.484] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f32e3b979fd17ea9335f>
+I [2014-12-11 20:24:48.485] [[32mDispatcher[0m] Event client_connected Finished in 0.000582 seconds
+I [2014-12-11 20:24:48.485] [[32mChannel[0m] #<Connection::f32e3b979fd17ea9335f> subscribed to channel 
+I [2014-12-11 20:24:48.485] [[32mChannel[0m] sending token
+I [2014-12-12 14:57:26.802] [[32mChannel[0m] #<Connection::f32e3b979fd17ea9335f> unsubscribed from channel 
+I [2014-12-12 14:57:26.883] [[32mConnectionManager[0m] Connection closed: #<Connection::f32e3b979fd17ea9335f>

@@ -15,7 +15,7 @@ class TasksController < ApplicationController
 	private
 
 	def task_params
-		params[:task].permit(:title, :contributor)
+		params[:task].permit(:title, :contributor, :time)
 	end
 
 	def user_params
