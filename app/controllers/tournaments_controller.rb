@@ -16,6 +16,8 @@ class TournamentsController < ApplicationController
     elsif @card.result && @card.player_a.nil?
       Tournament.new.second_progress(@card.result,@tournament.id)
     end
+    @player_array = Tournament.new.graph(@tournament.id)
+    
   end
 
   def new

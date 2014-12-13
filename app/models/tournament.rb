@@ -123,4 +123,15 @@ class Tournament < ActiveRecord::Base
     str.gsub!(/\s*\[\"\w*\", \]\s*/,"")
     return str
   end
+  def graph(id)
+    @tournament = Tournament.find(id)
+    array = @tournament.cards.split(" [")
+    array.each_with_index do |name, i|
+      name.delete!("[]")
+      if name.include?(",")
+        array[i] = name
+      end
+    end
+    return array
+  end
 end

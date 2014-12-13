@@ -1,0 +1,59 @@
+<div class="popup">
+  <button class="button">トーナメント表</button>
+  <div align=center>
+    <div class="tournament">
+      ~トーナメント表~
+      <div align=left>
+
+       <table cellpadding="0" cellspacing="0">
+        <!--１ブロック-->
+        <tr height="30"><th rowspan="3"><%= @player_array[0] %></th><td width="60"></td></tr>
+        <div class="line-red">
+          <tr height="1"><td bgcolor="black"></td><td width="1" rowspan="5" bgcolor="black"></td></tr>
+        </div>
+        <tr height="30"></tr>
+
+        <tr height="1"><td></td><td></td><td width="60" bgcolor="black"><td width="1" rowspan="11" bgcolor="black"></td></tr>
+
+        <!--２ブロック-->
+        <tr height="30"><th rowspan="3"><%= @player_array[1] %></th><td width="60"></td></tr>
+        <tr height="1"><td bgcolor="black"></td></tr>
+        <tr height="30"></tr>
+
+      
+        
+        <tr height="20"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan="3"></td><th width="60" valign="bottom" font-size="5">優勝</th></tr>
+        <tr height="1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td width="60" bgcolor="black"></td></tr>
+        <tr height="1"></tr>
+
+
+
+        <!--3ブロック-->
+        <tr height="30"><th rowspan="3"><%= @player_array[2] %></th><td width="60"></td></tr>
+        <tr height="1"><td bgcolor="black"></td><td width="1" rowspan="5" bgcolor="black"></td></tr>
+        <tr height="30"></tr>
+
+        <tr height="1"><td></td><td></td><td width="60" bgcolor="black"></td></tr>
+
+        <!--4ブロック-->
+        <tr height="30"><th rowspan="3"><%= @player_array[3] %></th><td width="60"></td></tr>
+        <tr height="1"><td bgcolor="black"></td></tr>
+        <tr height="30"></tr>
+      </table>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+$(function(){
+  $(".button").click(function(){
+    $(".tournament").toggle(200)(function(){
+      $(".tournament").slideUp()
+    },function(){
+      $(".tournament").slideDown()
+    }); 
+  });
+});
+</script>
