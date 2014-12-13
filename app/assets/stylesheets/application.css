@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+
+
  */
  * {
   box-sizing: border-box;
@@ -20,17 +22,21 @@ html, body { min-height: 100%; }
 a { text-decoration: none; }
 
 .page-wrap {
-  top: 0;
-  float: right;
-  width: 79%;
+  margin-left: 200px;
+  margin-top: 70px;
+  /*top: 0;*/
+  /*float: right;*/
+  background: #eee;
+  width: 80%;
 }
 .main-nav {
+  margin-top: 50px;
   position: fixed;
   top: 0;
-  width: 20%;
+  width: 15%;
   height: 100%;
-  background: #FFF;
-  overflow-y: auto;
+  background: #ffffff;
+  overflow-x: auto;
 }
 
 .back {
@@ -75,9 +81,9 @@ a { text-decoration: none; }
   margin-right: 1000px;
 }
 
+.sample{
+  margin-top: 10px;
+}
 
 
-
-
-
-body { background: #eee; }
+body { background: #eee;}
