@@ -1,13 +1,10 @@
 <head>
   <meta charset="UTF-8">
-  <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag "chat.js.coffee"%>
 </head>
 <body onload="document.chatform.chattext.focus()">
 
 <div>
-<ul class="nav nav-list well" style="overflow-y: auto;height: 400px">
-<div>ようこそ、<%= current_player.username %>さん</div>
+<ul class="nav nav-list well" style="overflow-y: auto;height: 400px" id="chatbox">
 
 <!-- jsに食わせたい情報などなど -->
 <div id="username" style="display:none;"><%= current_player.username %></div>
