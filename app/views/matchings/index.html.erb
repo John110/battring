@@ -18,7 +18,7 @@
   <tbody>
     <% @create_matchings.each do |create_matching| %>
       <tr>
-        <td><%= link_to "#{create_matching.name}", project_matching_path(create_matching.project_id, create_matching.id) %></td>
+        <td><%= link_to "#{create_matching.name}", project_matching_path(create_matching.project_id, create_matching.id), data: { "no-turbolink" => true } %></td>
         <td><%= create_matching.owner %></td>
         <td><%= create_matching.title %></td>
         <td><%= create_matching.reguration %></td>
