@@ -8,9 +8,13 @@
 
 <!-- jsに食わせたい情報などなど -->
 <div id="username" style="display:none;"><%= current_player.username %></div>
-
+<div id="group_id" style="display:none;"><%= request.url %></div>
+<% logs = Chatlog.where(url: request.url) %>
 <!-- チャットのタイムラインとかテキストボックスとか -->
 <div id="timeline" style="margin:20px;">
+  <% logs.each do |log| %>
+    <%= log.username %> 「<%= log.message %>」<br>
+  <% end %>
   <div id="chat" data-uri="<%= request.host %>:3000/websocket"></div>
 </div>
 </ul>

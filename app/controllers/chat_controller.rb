@@ -8,7 +8,9 @@ class ChatController < WebsocketRails::BaseController
   end
 
   def new_message
-    gid = message[:gid]
+    log = Chatlog.new
+    log.create(message)
+    gid = message[:group_id]
     WebsocketRails["#{gid}"].trigger(:new_message, message)
   end
 end

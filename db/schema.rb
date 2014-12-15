@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141203051724) do
+ActiveRecord::Schema.define(version: 20141215061059) do
 
   create_table "cards", force: true do |t|
     t.integer  "matching_id"
@@ -26,6 +26,14 @@ ActiveRecord::Schema.define(version: 20141203051724) do
   end
 
   add_index "cards", ["matching_id"], name: "index_cards_on_matching_id", using: :btree
+
+  create_table "chatlogs", force: true do |t|
+    t.string   "username"
+    t.string   "message"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "favorites", force: true do |t|
     t.string   "title"
