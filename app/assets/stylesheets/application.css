@@ -85,5 +85,9 @@ a { text-decoration: none; }
   margin-top: 10px;
 }
 
+.navbar-nav{
+  margin-left: 150px;
+}  
+
 
 body { background: #eee;}

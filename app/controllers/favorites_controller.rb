@@ -19,7 +19,6 @@ class FavoritesController < ApplicationController
 
 	private
 
-
   def is_redundant_title?
     Favorite.exists?(player_id: @user.id, title: params[:title])
   end

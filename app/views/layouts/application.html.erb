@@ -14,52 +14,27 @@
 
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <%= image_tag '/../../assets/logo_black.png', :width => '104', :height => '50' %></td>
+      <%= link_to image_tag('/../../assets/logo_black.png', :width => '104', :height => '50'), user_path(current_player.username) %>
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
+
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-<!--         <li><button type="button" class="btn btn-primary navbar-btn">
-        <span class="glyphicon glyphicon-home"></span>
-        Home
-        </button></li> -->
-        <li>
-          <%= link_to "Home", user_path(current_player.username), :class => "glyphicon glyphicon-home", :style=>"color:white;" %>
-        </li>
-
-
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+      <ul class="nav navbar-nav" >
+        <% if @project.present? %>
+          <li><p class="navbar-text"><font color="white" size="3"><%= "#{@project.title}"%>の部屋</font></p></li>
+        <% end %>
       </ul>
-      <!-- <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
+
+
       <ul class="nav navbar-nav navbar-right">
-        <!-- <li><a href="#">Link</a></li> -->
+        <% if !params[:user_id].nil? %>
+          <li>
+            <%= link_to "大会", project_matchings_path(@project.id), :class => "glyphicon glyphicon-fire", :style => "color:white; font-size:20px;" %>
+          </li>
+        <% end %>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle glyphicon glyphicon-user" data-toggle="dropdown" role="button" aria-expanded="false"><font color="white">メニュー</font><span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle glyphicon glyphicon-cog" data-toggle="dropdown" role="button" aria-expanded="false">
+            <font color="white" size="4">メニュー</font><span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><%= link_to 'プロフィール変更', edit_player_registration_path %></li>
             <li class="divider"></li>
@@ -67,15 +42,15 @@
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 
 
 
 <nav class="main-nav" id="main-nav">
 <div align="center">
-  <header>
+  <!-- <header>
     <nav>
       <% if player_signed_in? %> 
         <strong><%= current_player.username %></strong>として<br>ログインしています。<br>
@@ -86,9 +61,9 @@
         <%= link_to "ログイン", new_player_session_path %>
       <% end %>
     </nav>
-  </header>
+  </header> -->
   <% if player_signed_in? %> 
-    <ul class="nav nav-tabs nav-stacked"><h2><%= link_to "Home", user_path(current_player.username) %><br></h2></ul>
+    <ul class="nav nav-tabs nav-stacked"><br><br><br><h3>お気に入り一覧<br></h3></ul>
     <% current_player.favorites.each do |favorite| %>
     <ul class="nav nav-tabs nav-stacked">
       <%= link_to favorite.title, user_project_path(current_player.id, favorite.project) %><br></ul>
@@ -97,7 +72,7 @@
 </div>
 </nav>
 
-  <div class="page-wrap">
+<div class="page-wrap">
 <%= yield %>
 </div>
 

@@ -1,21 +1,47 @@
-<title>バトリング</title>
-<center>
-<h2>ユーザー登録</h2>
+<head>
+  <title>バトリング</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" />
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+<body background = "/../../assets/back.png" ng-controller="guestCtl">
+  <center>
+    <div class="container" style="margin-top:100px; margin-left:300px;">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2>ユーザー登録</h2>
+            </div>
 
-  <div><%= f.label :username, 'ユーザー名' %><br />
-  <%= f.text_field :username, autofocus: true %></div>
+            <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+              <%= devise_error_messages! %>
 
-  <div><%= f.label :password, 'パスワード' %> <% if @validatable %><i>(<%= @minimum_password_length %> 文字以上)</i><% end %><br />
-    <%= f.password_field :password, autocomplete: "off" %></div>
+              <div class="panel-body">
+                <%= f.label :username, 'ユーザー名' %><br>
+                <%= f.text_field :username, autofocus: true %><br>
 
-  <div><%= f.label :password_confirmation, 'パスワードの確認' %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %></div>
+                <%= f.label :password, 'パスワード' %>
+                <% if @validatable %><i>(<%= @minimum_password_length %> 文字以上)</i><% end %><br>
+                <%= f.password_field :password, autocomplete: "off" %><br>
 
-  <div><%= f.submit "登録する" %></div>
-<% end %>
+                <%= f.label :password_confirmation, 'パスワードの確認' %><br>
+                <%= f.password_field :password_confirmation, autocomplete: "off" %><br><br><br>
 
-<%= render "devise/shared/links" %>
-</center>
+                <div><%= button_tag( class: "btn btn-info btn-lg") do %>
+                  <%= content_tag :span, "登録する" %>
+                <% end %></div>
+            <% end %>
+
+            <%= render "devise/shared/links" %>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          &nbsp;
+        </div>
+      </div>
+    </div>
+  </center>
+</body>
