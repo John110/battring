@@ -1,27 +1,39 @@
 <%- model_class = Project -%>
 <div class="page-header", style="display:inline;">
   <h1><%= @project.title %></h1>
-  <div class="button"><%= button_to "お気に入り登録",{:controller => "favorites", :action => "create", :user_id => params[:user_id], :project_id => params[:id], :title => @project.title}, :class => "btn btn-default" %></div>
-  <div style="float:right;"><%= link_to "大会", project_matchings_path(@project.id), :class => "btn btn-default" %></div>
+
+  <div class="button"><%= button_to user_favorites_path(@user.id, :project_id => @project.id, :title => @project.title) , :class => "btn btn-warning" do %>
+      <i class="glyphicon glyphicon-star"></i><font color="black">お気に入り登録</font>
+    <% end %>
+  </div>
+
 </div><br><br>
  
-
 <% @project.tasks.each.with_index do |task, i| %>
-	<%= i+1 %>. &nbsp; <%= link_to "#{task.contributor}", user_path(task.contributor) %> &nbsp; <%= task.time %>
-	<%= simple_format(task.title) %><br><br>
-<% end %>	
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <%= i+1 %>. &nbsp; <%= link_to "#{task.contributor}", user_path(task.contributor) %> &nbsp; <%= task.time %>
+    </div>
+    <div class="panel-body">
+     <%= simple_format(task.title) %><br><br>
+    </div>
+  </div>
+<% end %> 
 
 <div class="form-horizontal" role="form"> 
-<%= form_for [@project, @project.tasks.build] do |f| %>
-<div>
-<%= f.text_area :title, :size => "40x5" %>
+  <%= form_for [@project, @project.tasks.build] do |f| %>
+    <div>
+      <%= f.text_area :title, :size => "40x5" %>
+    </div>
+    <%= f.hidden_field :user_id, value: params[:user_id] %>
+    <%= f.hidden_field :contributor, value: current_player.username %>
+    <% time = Time.now %>
+    <%= f.hidden_field :time, value: time.strftime('%Y年%m月%d日 %H:%M:%S') %>
+    <table class="submit_button" width="150">
+      <td align="left"><%= button_tag( class: "btn btn-primary btn-sm") do %>
+        <%= content_tag :span, "送信", class: "glyphicon glyphicon-comment" %>
+      <% end %></td>
+  <% end %>
 </div>
-<%= f.hidden_field :user_id, value: params[:user_id] %>
-<%= f.hidden_field :contributor, value: current_player.username %>
-<% time = Time.now %>
-<%= f.hidden_field :time, value: time.strftime('%Y年%m月%d日 %H:%M:%S') %>
-<%= f.submit '送信' %>
-<% end %>
-</div>
-<%= link_to t('.back', :default => t("戻る")),
-              projects_path, :class => 'btn btn-default'  %>
+      <td><%= link_to t('.back', :default => t("戻る")),projects_path, :class => 'btn btn-default' %></td>
+    </table>

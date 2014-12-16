@@ -1,21 +1,47 @@
-<title>バトリング</title>
-<center>
-<h2>ログイン</h2>
+<head>
+  <title>バトリング</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" />
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+<body background = "/../../assets/back.png" ng-controller="guestCtl">
+  <center>
+    <div class="container" style="margin-top:100px; margin-left:300px;">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2>ログイン</h2>
+            </div>
 
-  <div><%= f.label :username, 'ユーザー名' %><br />
-  <%= f.text_field :username, autofocus: true %></div>
+            <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+              <%= devise_error_messages! %>
 
-  <div><%= f.label :password, 'パスワード' %><br />
-    <%= f.password_field :password, autocomplete: "off" %></div>
+              <div class="panel-body">
+                <%= f.label :username, 'ユーザー名' %><br>
+                <%= f.text_field :username, autofocus: true %><br>
 
-  <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me, '入力を記憶する' %></div>
-  <% end -%>
+                <%= f.label :password, 'パスワード' %><br>
+                <%= f.password_field :password, autocomplete: "off" %>
 
-  <div><%= f.submit "ログインする" %></div>
-<% end %>
-<%= render "devise/shared/links" %>
-</center>
+                <% if devise_mapping.rememberable? -%>
+                  <div><%= f.check_box :remember_me %> <%= f.label :remember_me, '入力を記憶する' %></div>
+                <% end -%><br><br>
+
+                <div><%= button_tag( class: "btn btn-info btn-lg") do %>
+                  <%= content_tag :span, "ログインする" %>
+                <% end %></div>
+            <% end %>
+
+            <%= render "devise/shared/links" %>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          &nbsp;
+        </div>
+      </div>
+    </div>
+  </center>
+</body>

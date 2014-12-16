@@ -2,19 +2,55 @@
 <html>
 <head>
   <title>バトリング</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" />
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<div class="page-wrap">
-<%= yield %>
-</div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= link_to image_tag('/../../assets/logo_black.png', :width => '104', :height => '50'), user_path(current_player.username) %>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" >
+        <% if @project.present? %>
+          <li><p class="navbar-text"><font color="white" size="3"><%= "#{@project.title}"%>の部屋</font></p></li>
+        <% end %>
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <% if !params[:user_id].nil? %>
+          <li>
+            <%= link_to "大会", project_matchings_path(@project.id), :class => "glyphicon glyphicon-fire", :style => "color:white; font-size:20px;" %>
+          </li>
+        <% end %>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle glyphicon glyphicon-cog" data-toggle="dropdown" role="button" aria-expanded="false">
+            <font color="white" size="4">メニュー</font><span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><%= link_to 'プロフィール変更', edit_player_registration_path %></li>
+            <li class="divider"></li>
+            <li><%= link_to "ログアウト", destroy_player_session_path, method: :delete %></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 
 <nav class="main-nav" id="main-nav">
 <div align="center">
-  <header>
+  <!-- <header>
     <nav>
       <% if player_signed_in? %> 
         <strong><%= current_player.username %></strong>として<br>ログインしています。<br>
@@ -25,9 +61,9 @@
         <%= link_to "ログイン", new_player_session_path %>
       <% end %>
     </nav>
-  </header>
+  </header> -->
   <% if player_signed_in? %> 
-    <ul class="nav nav-tabs nav-stacked"><h2><%= link_to "Home", user_path(current_player.username) %><br></h2></ul>
+    <ul class="nav nav-tabs nav-stacked"><br><br><br><h3>お気に入り一覧<br></h3></ul>
     <% current_player.favorites.each do |favorite| %>
     <ul class="nav nav-tabs nav-stacked">
       <%= link_to favorite.title, user_project_path(current_player.id, favorite.project) %><br></ul>
@@ -35,6 +71,10 @@
   <% end %>
 </div>
 </nav>
+
+<div class="page-wrap">
+<%= yield %>
+</div>
 
 
 </body>

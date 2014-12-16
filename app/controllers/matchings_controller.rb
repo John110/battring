@@ -24,6 +24,7 @@ class MatchingsController < ApplicationController
 
   def create
     @project = Project.find(params[:project_id])
+    p @project.matchings
     @create_matching = @project.matchings.create(create_matching_params)
 
     respond_to do |format|
