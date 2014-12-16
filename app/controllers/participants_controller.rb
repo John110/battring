@@ -22,7 +22,7 @@ class ParticipantsController < ApplicationController
     @participant = @create_matching.participants.build(participant_params)
     respond_to do |format|
       if @participant.save
-        format.html { redirect_to matching_participant_path(@create_matching, @participant), notice: 'Participant was successfully created.' }
+        format.html { redirect_to matching_participant_path(@create_matching, @participant), notice: "大会に参加しました!\n貴方の健闘を祈ります!" }
         format.json { render :show, status: :created, location: @participant }
       else
         format.html { render :new }

@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>名前</strong>
   <%= @participant.name %>
 </p>
 
 <p>
-  <strong>Create matching:</strong>
+  <strong>大会名</strong>
   <%= @create_matching.name %>
 </p>
 
-<%= link_to 'Show', matching_path(@create_matching) %>|
-<%= link_to 'Back', project_matching_path(@create_matching.project_id, @create_matching.id) %>
+<%= link_to '参加した詳細に戻る', matching_path(@create_matching) %>|
+<%= link_to '大会一覧に戻る', project_matchings_path(@create_matching.project_id, @create_matching.id) %>

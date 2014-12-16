@@ -6,6 +6,8 @@
 <p>
   <%= @tournament.result %>さんがこの大会を制しました!
 </p>
+<% elsif @tournament.participants.nil? %>
+  この大会には参加者がいませんでした・・・
 <% else %>
 <p>
   <%= radio_button "page", "result", @card.player_a %>
@@ -15,10 +17,11 @@
   <%= radio_button "page", "result", @card.player_b %>
 </p>
 <%= submit_tag "報告" %>
+<%= render "tournament_graph" %>
 <% end %>
 <% end %>
 
-<%= render "tournament_graph" %>
+
 <%= render :template => "chat/index" %>
 
-<%= link_to 'Back', project_matchings_path(1) %>
+<%= link_to "#{@project.title}の大会一覧に戻る", project_matchings_path(@project.id) %>

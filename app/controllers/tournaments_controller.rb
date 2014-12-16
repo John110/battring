@@ -1,7 +1,4 @@
 class TournamentsController < ApplicationController
-  def index
-  end
-
   def show
     @project = Project.find(params[:project_id])
     @tournament = Tournament.find(params[:matching_id])
@@ -17,15 +14,11 @@ class TournamentsController < ApplicationController
       Tournament.new.second_progress(@card.result,@tournament.id)
     end
     @player_array = Tournament.new.graph(@tournament.id)
-    
   end
 
   def new
     @create_matching = Matching.find(params[:matching_id])
     @tournament = @create_matching.tournament.build
-  end
-
-  def create
   end
 
   private

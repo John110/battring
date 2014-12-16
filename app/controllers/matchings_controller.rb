@@ -26,10 +26,14 @@ class MatchingsController < ApplicationController
     @project = Project.find(params[:project_id])
     p @project.matchings
     @create_matching = @project.matchings.create(create_matching_params)
-
+    @create_matching.title = @project.title
+    if @create_matching.memo.include?("")
+      @create_matching.memo = "なし"
+      @create_matching.save
+    end
     respond_to do |format|
       if @create_matching.save
-        format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: 'Create matching was successfully created.' }
+        format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: '正常に大会が作成されました!' }
         format.json { render :show, status: :created, location: @create_matching }
       else
         format.html { render :new }
@@ -41,9 +45,14 @@ class MatchingsController < ApplicationController
   end
 
   def update
+    if @create_matching.memo.include?("")
+      @create_matching.memo = "なし"
+      @create_matching.save
+    end
+
     respond_to do |format|
       if @create_matching.update(create_matching_params)
-        format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: 'Create matching was successfully updated.' }
+        format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: '大会を更新しました' }
         format.json { render :show, status: :ok, location: @create_matching }
       else
         format.html { render :edit }
@@ -66,6 +75,6 @@ class MatchingsController < ApplicationController
   end
 
   def create_matching_params
-    params.require(:matching).permit(:name, :owner, :title, :reguration, :limit, :start, :memo, :participant_id)
+    params.require(:matching).permit(:name, :owner, :reguration, :limit, :start, :memo, :participant_id)
   end
 end

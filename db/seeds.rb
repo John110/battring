@@ -6,12 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-@user = User.new
-@user.name = "Sano"
-@user.email = "pippi@gmail.com"
-@user.save
-
-@user = User.new
-@user.name = "Uramon"
-@user.email = "poppo@gmail.com"
-@user.save
+Project.create(genre: "FPS", title: "CoD4")
+Project.create(genre: "FPS", title: "BattleField4")
+Project.create(genre: "格闘", title: "P4U2")
+Project.create(genre: "格闘", title: "電撃ファイティングクライマックス")
