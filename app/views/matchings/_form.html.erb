@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label "主催者" %><br>
-    <%= f.text_field :owner %>
+    <%= f.text_field :owner, value: current_player.username %>
   </div>
   <div class="field">
     <%= f.label "参加条件" %><br>

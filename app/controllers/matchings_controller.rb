@@ -24,24 +24,24 @@ class MatchingsController < ApplicationController
 
   def create
     @project = Project.find(params[:project_id])
-    p @project.matchings
     @create_matching = @project.matchings.create(create_matching_params)
     @create_matching.title = @project.title
+    @create_matching.owner = current_player.username
     if @create_matching.memo.include?("")
       @create_matching.memo = "なし"
-      @create_matching.save
     end
+    @create_matching.save
     respond_to do |format|
       if @create_matching.save
         format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: '正常に大会が作成されました!' }
         format.json { render :show, status: :created, location: @create_matching }
+        Tournament.new.create(@create_matching.id, @create_matching.start)
+        Card.new.create(@create_matching.id)
       else
         format.html { render :new }
         format.json { render json: @create_matching.errors, status: :unprocessable_entity }
       end
     end
-    Tournament.new.create(@create_matching.id, @create_matching.start)
-    Card.new.create(@create_matching.id)
   end
 
   def update
