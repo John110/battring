@@ -22,16 +22,16 @@ class ParticipantsController < ApplicationController
         format.html { redirect_to matching_participant_path(@matching, @participant), notice: "大会に参加しました!\n貴方の健闘を祈ります!" }
         format.json { render :show, status: :created, location: @participant }
         Tournament.new.update(@participant.name,params[:matching_id])
+        # 3.times do |i| #デモ用プログラム
+        #   @participant = @matching.participants.build(participant_params)
+        #   @participant.name = "Nanasi#{i}"
+        #   @participant.save
+        #   Tournament.new.update(@participant.name,params[:matching_id])
+        # end
       else
         format.html { render :new }
         format.json { render json: @participant.errors, status: :unprocessable_entity }
       end
-    end
-    3.times do |i| #デモ用プログラム
-      @participant = @matching.participants.build(participant_params)
-      @participant.name = "Nanasi#{i}"
-      @participant.save
-      Tournament.new.update(@participant.name,params[:matching_id])
     end
   end
 

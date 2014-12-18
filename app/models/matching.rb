@@ -6,26 +6,13 @@ class Matching < ActiveRecord::Base
   has_one :tournament
   has_one :card
 
- 	validates :name, :owner,
-	presence: {message: "Please input name."},
-	length: {minimum: 2, message: "Please input longer name."},
-	length: {maximum: 20, message: "Please input shorter name."}
-
- 	validates :title,
-	presence: {message: "Please input title."},
-	length: {minimum: 2, message: "Please input longer title."},
-	length: {maximum: 20, message: "Please input shorter title."}
+ 	validates :name,
+	presence: {message: "を入れてくだ"},
+	length: {minimum: 2, message: "が短すぎます"},
+	length: {maximum: 20, message: "が長すぎます"}
 
  	validates :reguration,
-	presence: {message: "Please input reguration."},
-	length: {minimum: 2, message: "Please input longer reguration."},
-	length: {maximum: 20, message: "Please input shorter reguration."}
-	
-	# def date_comparison(date, member)
-	# 	if date < Time.now
-			
-
-	# 	end
-	# end
-	
+	presence: {message: "を入れてください"},
+	length: {minimum: 2, message: "が短すぎます"},
+	length: {maximum: 20, message: "が長すぎます"}	
 end
