@@ -32,14 +32,16 @@
     <%= f.label "開催日時" %><br>
     <%= f.datetime_select :start %>
   </div>
-  <div class="field">
+  <div class="field" style="margin-bottom:10px;">
     <%= f.label "備考" %><br>
     <%= f.text_area :memo %>
   </div>
-  <div class="actions">
-    <%= f.submit "大会を作成する!" %>
+  <div class="actions" >
+    <%= button_tag( class: "btn btn-info btn-sm glyphicon glyphicon-pencil") do %>
+      <%= content_tag :span, "作成" ,:style => "font-size:13px;" %>
+    <% end %><br><br><br><br>
   </div>
 <% end %>
 
 
-<%= link_to '戻る', project_matchings_path(@project.id) %>
+

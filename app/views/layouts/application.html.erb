@@ -15,13 +15,14 @@
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
-      <%= link_to image_tag('/../../assets/logo_black.png', :width => '104', :height => '50'), user_path(current_player.username) %>
+      <%= link_to image_tag('/../../assets/logo_black.png', :width => '110', :height => '54'), user_path(current_player.username) %>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav" >
+      <p class="navbar-text"><font color="white"><%= "#{current_player.username}"%>でログインしています</font></p>
+      <ul class="nav navbar-nav">
         <% if @project.present? %>
-          <li><p class="navbar-text"><font color="white" size="3"><%= "#{@project.title}"%>の部屋</font></p></li>
+          <li><p class="navbar-text"><font color="white"><%= "#{@project.title}"%>の部屋</font></p></li>
         <% end %>
       </ul>
 
@@ -63,7 +64,7 @@
     </nav>
   </header> -->
   <% if player_signed_in? %> 
-    <ul class="nav nav-tabs nav-stacked"><br><br><br><h3>お気に入り一覧<br></h3></ul>
+    <ul class="nav nav-tabs nav-stacked"><br><h4>お気に入り一覧<br></h4></ul>
     <% current_player.favorites.each do |favorite| %>
     <ul class="nav nav-tabs nav-stacked">
       <%= link_to favorite.title, user_project_path(current_player.id, favorite.project) %><br></ul>

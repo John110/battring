@@ -13,7 +13,7 @@
 
 <nav class="home-nav">
   <table rules="none" width = "100%">
-    <td><%= image_tag '/../../assets/logo_black.png', :width => '400', :height => '90' %></td>
+    <td><%= image_tag '/../../assets/logo_black.png', :width => '207', :height => '100' %></td>
     <td align = "right"><%= link_to "初めての方はここから", new_player_registration_path, :class => "btn btn-default btn-lg block" %></td>
     <td align = "center"><%= link_to "今すぐ絆を深める", new_player_session_path, :class => "btn btn-default btn-lg block" %></td>
 </table>
@@ -28,16 +28,19 @@
   </div>
 
   <div class = "sign_in">
-    <%= link_to image_tag('/../../assets/signin2.png', :width => '470', :height => '200'), new_player_registration_path %>
-    <%= link_to image_tag('/../../assets/login2.png', :width => '470', :height => '200'), new_player_session_path %>
+    <table>
+      <td><%= link_to image_tag('/../../assets/signin2.png', :width => '400', :height => '295'), new_player_registration_path %></td>
+      <td><%= link_to image_tag('/../../assets/login2.png', :width => '400', :height => '295'),
+        new_player_session_path %></td>
+    </table>
   </div>
 
   <div class = "advertize">
-    <%= image_tag '/../../assets/advertize.png', :width => '940', :height => '400' %>
+    <%= image_tag '/../../assets/advertize.png', :width => '800', :height => '611' %>
   </div>
 
   <div class = "explain">
-    <%= image_tag '/../../assets/explain1.png', :width => '940', :height => '600' %>
+    <%= image_tag '/../../assets/explain_baked.png', :width => '800', :height => '600' %>
   </div>
 </div>
 </body>
