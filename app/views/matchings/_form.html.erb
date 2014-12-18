@@ -1,10 +1,10 @@
-<%= form_for @create_matching do |f| %>
-  <% if @create_matching.errors.any? %>
+<%= form_for @matching do |f| %>
+  <% if @matching.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@create_matching.errors.count, "error") %> prohibited this create_matching from being saved:</h2>
+      <h2><%= pluralize(@matching.errors.count, "error") %> prohibited this matching from being saved:</h2>
 
       <ul>
-      <% @create_matching.errors.full_messages.each do |message| %>
+      <% @matching.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>

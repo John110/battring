@@ -2,49 +2,49 @@
 
 <p>
   <strong>大会名</strong>
-  <%= @create_matching.name %>
+  <%= @matching.name %>
 </p>
 
 <p>
   <strong>主催者</strong>
-  <%= @create_matching.owner %>
+  <%= @matching.owner %>
 </p>
 
 <p>
   <strong>作品名</strong>
-  <%= @create_matching.title %>
+  <%= @matching.title %>
 </p>
 
 <p>
   <strong>参加条件</strong>
-  <%= @create_matching.reguration %>
+  <%= @matching.reguration %>
 </p>
 
 <p>
   <strong>参加締切</strong>
-  <%= @create_matching.limit %>
+  <%= @matching.limit %>
 </p>
 
 <p>
   <strong>開催日時</strong>
-  <%= @create_matching.start %>
+  <%= @matching.start %>
 </p>
 
 <p>
   <strong>備考</strong>
-  <%= @create_matching.memo %>
+  <%= @matching.memo %>
 </p>
 
 <p>
-  <strong>参加者</strong> <%= @create_matching.participants.size %>名
-  <% @create_matching.participants.each do |participant| %>
+  <strong>参加者</strong> <%= @matching.participants.size %>名
+  <% @matching.participants.each do |participant| %>
     <br>
     <%= participant.name %>
   <% end %>
 </p>
 
-<% if @create_matching.limit > Time.now %>
-  <%= link_to '参加する!', new_matching_participant_path(@create_matching) %> |
+<% if @matching.limit > Time.now %>
+  <%= link_to '参加する!', new_matching_participant_path(@matching) %> |
 <% end %>
-<%= link_to '編集', edit_project_matching_path(@create_matching.project_id, @create_matching.id) %> |
-<%= link_to '戻る', project_matchings_path(@create_matching.project_id) %>
+<%= link_to '編集', edit_project_matching_path(@matching.project_id, @matching.id) %> |
+<%= link_to '戻る', project_matchings_path(@matching.project_id) %>
