@@ -8,11 +8,14 @@ class TournamentsController < ApplicationController
     elsif @tournament.cards.nil?
       Tournament.new.setting(@tournament.participants,@tournament.id)
     end
+    @tournament = Tournament.find(params[:matching_id])
     if @tournament.cards && !@tournament.is_second_battle
       Tournament.new.first_progress(@tournament.id)
     elsif @card.result && @card.player_a.nil?
       Tournament.new.second_progress(@card.result,@tournament.id)
     end
+    @tournament = Tournament.find(params[:matching_id])
+    @card = Card.find(params[:matching_id])
     @player_array = Tournament.new.graph(@tournament.id)
   end
 
