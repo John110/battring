@@ -1,11 +1,11 @@
 <h1>大会を新規に作成する</h1>
 <%= form_for [@project, @project.matchings.build] do |f| %>
-  <% if @create_matching.errors.any? %>
+  <% if @matching.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@create_matching.errors.count, "error") %> prohibited this create_matching from being saved:</h2>
+      <h2>作成できませんでした</h2>
 
       <ul>
-      <% @create_matching.errors.full_messages.each do |message| %>
+      <% @matching.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -18,7 +18,7 @@
   </div>
   <div class="field">
     <%= f.label "主催者" %><br>
-    <%= f.text_field :owner %>
+    <%= f.text_field :owner, value: current_player.username %>
   </div>
   <div class="field">
     <%= f.label "参加条件" %><br>

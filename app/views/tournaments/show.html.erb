@@ -1,14 +1,15 @@
 <p>
   <%= @tournament.cards %>
 </p>
-<%= form_tag project_matching_card_path, method: :PUT do %>
 <% if @tournament.result %>
 <p>
   <%= @tournament.result %>さんがこの大会を制しました!
+  <%= render "tournament_graph" %>
 </p>
 <% elsif @tournament.participants.nil? %>
-  この大会には参加者がいませんでした・・・
+この大会には参加者がいませんでした・・・
 <% else %>
+<%= form_tag project_matching_card_path, method: :PUT do %>
 <p>
   <%= radio_button "page", "result", @card.player_a %>
   <%= @card.player_a %>
@@ -17,8 +18,8 @@
   <%= radio_button "page", "result", @card.player_b %>
 </p>
 <%= submit_tag "報告" %>
-<%= render "tournament_graph" %>
 <% end %>
+<%= render "tournament_graph" %>
 <% end %>
 
 

@@ -7,3 +7,8 @@ ja:
         password: パスワード
         password_confirmation: パスワード（再入力）
         remember_me: 次回からパスワード入力を省く
+      matching:
+        name: 大会名
+        reguration: 参加条件
+      participant:
+        name: 名前

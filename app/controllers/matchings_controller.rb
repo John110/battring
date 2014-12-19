@@ -1,21 +1,21 @@
 class MatchingsController < ApplicationController
-  before_action :set_create_matching, only: [:show, :edit, :update, :destroy]
+  before_action :set_matching, only: [:show, :edit, :update, :destroy]
 
   def index
-    @create_matchings = Matching.where(project_id: params[:project_id])
+    @matchings = Matching.where(project_id: params[:project_id])
     @project = Project.find(params[:project_id])
   end
 
   def show
-    @create_matching = Matching.find(params[:id])
-    if @create_matching.start < Time.now
-      redirect_to project_matching_tournament_path(@create_matching.project_id, @create_matching.id)
+    @matching = Matching.find(params[:id])
+    if @matching.start < Time.now
+      redirect_to project_matching_tournament_path(@matching.project_id, @matching.id)
     end
   end
 
   def new
     @project = Project.find(params[:project_id])
-    @create_matching = @project.matchings.build
+    @matching = @project.matchings.build
   end
 
   def edit
@@ -24,57 +24,57 @@ class MatchingsController < ApplicationController
 
   def create
     @project = Project.find(params[:project_id])
-    p @project.matchings
-    @create_matching = @project.matchings.create(create_matching_params)
-    @create_matching.title = @project.title
-    if @create_matching.memo.include?("")
-      @create_matching.memo = "なし"
-      @create_matching.save
+    @matching = @project.matchings.create(matching_params)
+    @matching.title = @project.title
+    @matching.owner = current_player.username
+    if @matching.memo.include?("")
+      @matching.memo = "なし"
     end
+    @matching.save
     respond_to do |format|
-      if @create_matching.save
-        format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: '正常に大会が作成されました!' }
-        format.json { render :show, status: :created, location: @create_matching }
+      if @matching.save
+        format.html { redirect_to project_matching_path(@matching.project_id, @matching.id), notice: '正常に大会が作成されました!' }
+        format.json { render :show, status: :created, location: @matching }
+        Tournament.new.create(@matching.id, @matching.start)
+        Card.new.create(@matching.id)
       else
         format.html { render :new }
-        format.json { render json: @create_matching.errors, status: :unprocessable_entity }
+        format.json { render json: @matching.errors, status: :unprocessable_entity }
       end
     end
-    Tournament.new.create(@create_matching.id, @create_matching.start)
-    Card.new.create(@create_matching.id)
   end
 
   def update
-    if @create_matching.memo.include?("")
-      @create_matching.memo = "なし"
-      @create_matching.save
+    if @matching.memo.include?("")
+      @matching.memo = "なし"
+      @matching.save
     end
 
     respond_to do |format|
-      if @create_matching.update(create_matching_params)
-        format.html { redirect_to project_matching_path(@create_matching.project_id, @create_matching.id), notice: '大会を更新しました' }
-        format.json { render :show, status: :ok, location: @create_matching }
+      if @matching.update(matching_params)
+        format.html { redirect_to project_matching_path(@matching.project_id, @matching.id), notice: '大会を更新しました' }
+        format.json { render :show, status: :ok, location: @matching }
       else
         format.html { render :edit }
-        format.json { render json: @create_matching.errors, status: :unprocessable_entity }
+        format.json { render json: @matching.errors, status: :unprocessable_entity }
       end
     end
   end
 
   def destroy
-    @create_matching.destroy
+    @matching.destroy
     respond_to do |format|
-      format.html { redirect_to project_matchings_path(@create_matching.project_id), notice: 'Create matching was successfully destroyed.' }
+      format.html { redirect_to project_matchings_path(@matching.project_id), notice: 'Create matching was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
 
   private
-  def set_create_matching
-    @create_matching = Matching.find(params[:id])
+  def set_matching
+    @matching = Matching.find(params[:id])
   end
 
-  def create_matching_params
+  def matching_params
     params.require(:matching).permit(:name, :owner, :reguration, :limit, :start, :memo, :participant_id)
   end
 end

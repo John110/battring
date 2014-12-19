@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+<div class="page-header", style="display:inline;">
+<h1><%= @project.title %> 大会一覧</h1><br>
+<div align = "right"><%= link_to "大会を作成する", new_project_matching_path(@project.id), :class => "btn btn-success glyphicon glyphicon-pencil" %></div>
+</div><br><br>
+
+=======
 <h1><%= @project.title %> 大会一覧</h1>
 <%= link_to '大会を作成する!', new_project_matching_path(@project.id) %> | <%= link_to "掲示板に戻る", user_project_path(current_player.id, @project.id) %>
+>>>>>>> 301fa1459cfeca3c9dce38c5c7cc3fdc34ca9055
 
 <table class="table table-striped">
   <thead>
@@ -10,11 +18,25 @@
       <th>参加状態</th>
       <th>開催日時</th>
       <th>備考</th>
-      <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
+<<<<<<< HEAD
+    <% @create_matchings.each do |create_matching| %>
+      <tr>
+        <td><%= link_to "#{create_matching.name}", project_matching_path(create_matching.project_id, create_matching.id), data: { "no-turbolink" => true } %></td>
+        <td><%= create_matching.owner %></td>
+        <td><%= create_matching.reguration %></td>
+        <% limit_time = create_matching.limit.strftime('%Y年%m月%d日 %H:%M')%>
+        <td><%= limit_time %></td>
+        <% start_time = create_matching.start.strftime('%Y年%m月%d日 %H:%M')%>
+        <td><%= start_time %></td>
+        <td><%= create_matching.memo %></td>
+      </tr>
+    <% end %>
+  </tbody>
+=======
     <% @matchings.each do |matching| %>
     <tr>
       <td><%= link_to "#{matching.name}", project_matching_path(matching.project_id, matching.id), data: { "no-turbolink" => true } %></td>
@@ -38,6 +60,7 @@
   </tr>
   <% end %>
 </tbody>
+>>>>>>> 301fa1459cfeca3c9dce38c5c7cc3fdc34ca9055
 </table>
 
 <br>
