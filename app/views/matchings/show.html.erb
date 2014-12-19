@@ -9,39 +9,39 @@
 
           <table class="list-group-item">
             <td width="320px" align="right"><strong>大会名</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td width="320px"><%= @create_matching.name %></td>
+            <td width="320px"><%= @matching.name %></td>
           </table>
 
           <table class="list-group-item" >
             <td width="320px" align="right"><strong>主催者</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <td width="320px"><%= @create_matching.owner %>
+            <td width="320px"><%= @matching.owner %>
           </table>
 
           <table class="list-group-item" >
             <td width="320px" align="right"><strong>作品名</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <td width="320px"><%= @create_matching.title %>
+            <td width="320px"><%= @matching.title %>
           </table>
 
           <table class="list-group-item" >
             <td width="320px" align="right"><strong>参加条件</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <td width="320px"><%= @create_matching.reguration %>
+            <td width="320px"><%= @matching.reguration %>
           </table>
 
           <table class="list-group-item">
             <td width="320px" align="right"><strong>参加締切</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <% limit_time =  @create_matching.limit.strftime('%Y年%m月%d日 %H:%M')%>
+            <% limit_time =  @matching.limit.strftime('%Y年%m月%d日 %H:%M')%>
             <td width="320px"><%= limit_time %>
           </table>
 
           <table class="list-group-item" >
             <td width="320px" align="right"><strong>開催日時</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <% start_time = @create_matching.start.strftime('%Y年%m月%d日 %H:%M')%>
+            <% start_time = @matching.start.strftime('%Y年%m月%d日 %H:%M')%>
             <td width="320px"><%= start_time %>
           </table>
 
           <table class="list-group-item" >
             <td width="320px" align="right"><strong>備考</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <td width="320px"><%= @create_matching.memo %>
+            <td width="320px"><%= @matching.memo %>
           </table>
         </div>
       </div>
@@ -49,19 +49,19 @@
   </div>
 
   <center>
-    <% if @create_matching.limit > Time.now %>
-      <%= link_to '参加する', new_matching_participant_path(@create_matching), :class => "btn btn-success glyphicon glyphicon-plus" %>
+    <% if @matching.limit > Time.now %>
+      <%= link_to '参加する', new_matching_participant_path(@matching), :class => "btn btn-success glyphicon glyphicon-plus" %>
     <% end %>
-    <%= link_to '編集', edit_project_matching_path(@create_matching.project_id, @create_matching.id), :class => "btn btn-success glyphicon glyphicon-pencil" %>
-    <%= link_to '戻る', project_matchings_path(@create_matching.project_id), :class => "btn btn-default" %>
+    <%= link_to '編集', edit_project_matching_path(@matching.project_id, @matching.id), :class => "btn btn-success glyphicon glyphicon-pencil" %>
+    <%= link_to '戻る', project_matchings_path(@matching.project_id), :class => "btn btn-default" %>
   </center>
 
   <div class="dropdown" style="margin-bottom:500px;">
     <a href="#" class="dropdown-toggle glyphicon glyphicon-user" data-toggle="dropdown" role="button" aria-expanded="false">
-      <strong>参加者一覧</strong><span class="caret"></span>&nbsp;<span class="badge"><%= @create_matching.participants.size %>名</span>
+      <strong>参加者一覧</strong><span class="caret"></span>&nbsp;<span class="badge"><%= @matching.participants.size %>名</span>
     </a>
     <ul class="dropdown-menu" role="menu">
-      <% @create_matching.participants.each do |participant| %>
+      <% @matching.participants.each do |participant| %>
         <li><%= participant.name %></li>
         <li class="divider"></li>
       <% end %>
