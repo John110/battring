@@ -1,6 +1,3 @@
-<p>
-  <%= @tournament.cards %>
-</p>
 <% if @tournament.result %>
 <p>
   <%= @tournament.result %>さんがこの大会を制しました!
@@ -10,6 +7,7 @@
 この大会には参加者がいませんでした・・・
 <% else %>
 <%= form_tag project_matching_card_path, method: :PUT do %>
+<strong><%= @card.player_a %>と<%= @card.player_b %>の対戦が行われています</strong>
 <p>
   <%= radio_button "page", "result", @card.player_a %>
   <%= @card.player_a %>
@@ -17,11 +15,16 @@
   <%= @card.player_b %>
   <%= radio_button "page", "result", @card.player_b %>
 </p>
-<%= submit_tag "報告" %>
+
+<%= submit_tag "報告", :disabled => true, :class => 'reporter' %>
 <% end %>
 <%= render "tournament_graph" %>
 <% end %>
-
+<script>
+$("[id^=page_result_]").on("click",function(){
+  $('.reporter').attr('disabled',false);
+});
+</script>
 
 <%= render :template => "chat/index" %>
 
