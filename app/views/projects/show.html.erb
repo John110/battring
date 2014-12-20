@@ -13,7 +13,7 @@
   <% @project.tasks.each.with_index do |task, i| %>
     <div class="container">
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-15">
           <div class="panel panel-default">
             <div class="panel-heading">
               <%= i+1 %>. &nbsp; <%= link_to "#{task.contributor}", user_path(task.contributor) %> &nbsp; <%= task.time %>
@@ -31,15 +31,15 @@
     </div>
   <% end %> 
 
-  <div class="form-horizontal" role="form" style="margin-left:16px;"> 
+  <div class="form-horizontal" role="form" style="margin-left:25px;"> 
     <%= form_for [@project, @project.tasks.build] do |f| %>
       <div><%= f.text_area :title, :size => "40x5" %></div>
       <%= f.hidden_field :user_id, value: params[:user_id] %>
       <%= f.hidden_field :contributor, value: current_player.username %>
       <% time = Time.now %>
       <%= f.hidden_field :time, value: time.strftime('%Y年%m月%d日 %H:%M:%S') %>
-        <div style="margin-top:5px;"><%= button_tag( class: "btn btn-primary btn-sm") do %>
-          <%= content_tag :span, "送信", class: "glyphicon glyphicon-comment" %>
+        <div style="margin-top:5px; margin-left:216px;"><%= button_tag( class: "btn btn-primary btn-sm") do %>
+          <%= content_tag :span, "送信" %>
         <% end %></div><br><br><br>
     <% end %>
   </div>

@@ -2,4 +2,5 @@
 
 <%= render 'form' %>
 
-<%= link_to '戻る', project_matching_path(@matching.project.id, @matching.id) %>
+<br>
+<%= link_to '戻る', project_matching_path(@matching.project.id, @matching.id), :class => "btn btn-default" %>

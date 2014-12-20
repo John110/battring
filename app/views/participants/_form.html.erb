@@ -16,6 +16,10 @@
     <%= f.text_field :name, value: current_player.username %>
   </div>
   <div class="actions">
-    <%= f.submit "参加する!" %>
+    <div style="margin-top:5px;">
+      <%= button_tag( class: "btn btn-success") do %>
+        <%= content_tag :span, "参加する", class: "glyphicon glyphicon-plus" %>
+      <% end %>
+    </div>
   </div>
 <% end %>

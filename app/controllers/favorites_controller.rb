@@ -5,7 +5,7 @@ class FavoritesController < ApplicationController
 		if @project.nil? || is_redundant_title?
 			redirect_to user_path(@user.username)
 		else
-			@favorite = @user.favorites.create(title: params[:title], project_id: params[:project_id])
+			@favorite = @user.favorites.create(title: params[:title], project_id: params[:project_id], genre: @project.genre)
 			redirect_to user_path(@user.username)
 		end
 		

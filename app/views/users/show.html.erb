@@ -7,8 +7,10 @@
 </ul><br>
 
 <% if current_player.username == params[:id] %>
+  <h4>ここから好きな作品を探して登録しましょう</h4>
   <%= render "projects_list" %><br><br>
 <% end %>
+
 
 <h3>お気に入り一覧</h3>
 <table class="table table-hover">

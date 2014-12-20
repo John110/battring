@@ -22,12 +22,12 @@ html, body { min-height: 100%; }
 a { text-decoration: none; }
 
 .page-wrap {
-  margin-left: 200px;
+  margin-left: 30px;
   margin-top: 70px;
   /*top: 0;*/
   /*float: right;*/
   background: #eee;
-  width: 80%;
+  width: 95%;
   overflow: hidden;
 }
 .main-nav {

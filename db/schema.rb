@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20141215061059) do
 
   create_table "favorites", force: true do |t|
     t.string   "title"
+    t.string   "genre"
     t.integer  "user_id"
     t.integer  "player_id"
     t.integer  "project_id"

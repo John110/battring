@@ -7,18 +7,30 @@
 この大会には参加者がいませんでした・・・
 <% else %>
 <%= form_tag project_matching_card_path, method: :PUT do %>
-<strong><%= @card.player_a %>と<%= @card.player_b %>の対戦が行われています</strong>
+<h4><%= @card.player_a %>さんと<%= @card.player_b %>さんの対戦が行われています</h4>
+<center>
+<br>
 <p>
+  <font size="5">
   <%= radio_button "page", "result", @card.player_a %>
-  <%= @card.player_a %>
-  VS
-  <%= @card.player_b %>
+  <%= @card.player_a %>&nbsp;&nbsp;&nbsp;
+  <font color="red">VS</font>
+  &nbsp;&nbsp;&nbsp;<%= @card.player_b %>
   <%= radio_button "page", "result", @card.player_b %>
+</font>
 </p>
 
-<%= submit_tag "報告", :disabled => true, :class => 'reporter' %>
+<div style="margin-top:5px;">
+  <%= button_tag( class: "btn btn-primary") do %>
+    <%= content_tag :span, "勝者を報告する", :disabled => true, :class => 'reporter', class: "glyphicon glyphicon-ok" %>
+  <% end %>
+</div>
+
+</center>
 <% end %>
+<br><br><br>
 <%= render "tournament_graph" %>
+<br>
 <% end %>
 <script>
 $("[id^=page_result_]").on("click",function(){
@@ -29,3 +41,4 @@ $("[id^=page_result_]").on("click",function(){
 <%= render :template => "chat/index" %>
 
 <%= link_to "#{@project.title}の大会一覧に戻る", project_matchings_path(@project.id) %>
+<br><br><br>

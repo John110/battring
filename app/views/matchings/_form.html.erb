@@ -36,6 +36,9 @@
     <%= f.text_area :memo %>
   </div>
   <div class="actions">
-    <%= f.submit "大会を更新する" %>
+    <div style="margin-top:5px;">
+      <%= button_tag( class: "btn btn-success") do %>
+        <%= content_tag :span, "更新する", class: "glyphicon glyphicon-refresh" %>
+      <% end %>
   </div>
 <% end %>
