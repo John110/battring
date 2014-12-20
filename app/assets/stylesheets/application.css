@@ -28,6 +28,7 @@ a { text-decoration: none; }
   /*float: right;*/
   background: #eee;
   width: 80%;
+  overflow: hidden;
 }
 .main-nav {
   margin-top: 50px;

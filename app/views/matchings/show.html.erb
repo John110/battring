@@ -44,15 +44,16 @@
             <td width="320px"><%= @matching.memo %>
           </table>
         </div>
+        <% if @matching.limit > Time.now %>
+          <%= link_to '参加する', new_matching_participant_path(@matching), :class => "btn btn-success glyphicon glyphicon-plus", :style => "width:458px;" %>
+        <% end %>
       </div>
     </div>
   </div>
 
   <center>
-    <% if @matching.limit > Time.now %>
-      <%= link_to '参加する', new_matching_participant_path(@matching), :class => "btn btn-success glyphicon glyphicon-plus" %>
-    <% end %>
-    <%= link_to '編集', edit_project_matching_path(@matching.project_id, @matching.id), :class => "btn btn-success glyphicon glyphicon-pencil" %>
+    <br>
+    <%= link_to '編集', edit_project_matching_path(@matching.project_id, @matching.id), :class => "btn btn-success glyphicon glyphicon-edit" %>
     <%= link_to '戻る', project_matchings_path(@matching.project_id), :class => "btn btn-default" %>
   </center>
 
